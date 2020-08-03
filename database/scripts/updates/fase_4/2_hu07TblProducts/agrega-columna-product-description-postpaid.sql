@@ -1,2 +1,0 @@
-ALTER TABLE tbl_product
-ADD COLUMN	product_description_postpaid TEXT;

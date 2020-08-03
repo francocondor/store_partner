@@ -1,0 +1,223 @@
+.section-form
+	&__box
+		margin-bottom: 27px
+
+
+	&__title
+		font-size: 28px
+		font-weight: $light
+		margin-bottom: 10px
+		color: #000000
+		@include media-screen(phone)
+			font-size: 22px
+
+
+	&__information
+		padding: 43px 24px
+		border-radius: 4px
+		box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07)
+		border: solid 1px #e4e4e4
+		background-color: #ffffff
+
+		@include media-screen(phone)
+			padding-left: 16px
+			padding-right: 16px
+
+
+
+	&__submit
+		display: flex
+		justify-content: center
+
+		.btn
+			&__submit
+				text-align: center
+				width: 303px
+				height: 55px
+				border-radius: 6px
+				background-color: #9f5ed9
+				font-size: 18px
+				color: #fff
+				transition: .3s ease all
+				&:hover
+					background: #8c43ce
+
+
+
+
+
+	&__row
+		display: flex
+		margin-bottom: 32px
+
+		@include media-screen(phone)
+			flex-direction: column
+
+			&:last-child
+				margin-bottom: 0 !important
+
+
+
+
+
+	&__input
+		margin: 0 12px
+		position: relative
+		width: 100%
+
+		@include media-screen(phone)
+			margin: 0
+			margin-bottom: 25px
+
+			&:last-child
+				margin-bottom: 0 !important
+
+
+
+		.box-icon-form-up-down
+			position: absolute
+			top: 14px
+			right: 15px
+			display: flex
+			flex-direction: column
+
+			.fa
+				font-size: 18px
+				line-height: 10px
+				color: #129ea2
+
+
+
+		span
+			position: absolute
+			top: -10px
+			left: 15px
+			background: #fff
+			padding: 0 5px
+			color: #129ea2
+			font-weight: 500
+			@include media-screen(min-phone)
+				font-size: 12px
+				left: 5px
+			
+
+
+
+	&__type-text
+
+		input
+			width: 100%
+			border-radius: 6px
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04)
+			border: solid 1px #94d8dc
+			background-color: #ffffff
+			height: 46px
+			line-height: 46px
+			padding: 0 20px
+			color: #000000
+			font-weight: $light
+			&::placeholder
+				color: #9b9b9b
+				font-size: 13px
+				font-weight: $light
+
+
+
+
+	&__type-checkbox
+		display: flex
+		align-items: center
+
+		input
+			margin: 0
+			width: 20px
+			height: 20px
+			border-radius: 4px
+			box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.19)
+			border: solid 1px #d8d8d8
+			background-color: #fcfcfc
+			-webkit-appearance: none
+			-moz-appearance: none
+			position: relative
+			&:checked::after
+				opacity: 1
+
+			&::after
+				opacity: 0
+				font: normal normal normal 14px/1 FontAwesome
+				font-size: inherit
+				text-rendering: auto
+				-webkit-font-smoothing: antialiased
+				-moz-osx-font-smoothing: grayscale
+				content: "\f00c"
+				position: absolute
+				top: 4px
+				left: 4px
+				transition: .3s ease all
+				font-size: 10px
+			&.is-danger
+				padding: 0 !important
+
+		label
+			margin-left: 15px
+			color: #777777
+			font-weight: $regular
+			margin-bottom: 0
+
+			span
+				color: #129ea2
+				position: initial
+				padding: 0
+				text-decoration: underline
+
+	&__type-select
+		select
+			width: 100%
+			border-radius: 6px
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04)
+			border: solid 1px #94d8dc
+			background-color: #ffffff
+			height: 46px
+			line-height: 46px
+			padding: 0 20px
+			font-size: 13px
+			font-weight: $light
+			color: #000000 
+			&::invalid,
+			option:disabled
+				color: #9b9b99
+
+.section-information-delivery
+	&__header
+		display: flex
+	&__box-option
+		margin-left: 14px
+		margin-top: 20px
+		margin-bottom: 10px
+		width: 30px
+		height: 30px
+		background: #129ea2
+		transition: .3s ease all
+		text-decoration: none
+		&:focus,
+		&:hover
+			background: #15979a
+			text-decoration: none
+		&.active
+			.fa-angle-down
+				display: none
+			.fa-angle-up
+				display: block
+		.fa
+			width: 100%
+			text-align: center
+			&:before
+				font-size: 26px
+				color: white
+		.fa-angle-down
+			&:before
+				line-height: 32px
+		.fa-angle-up
+			display: none
+
+

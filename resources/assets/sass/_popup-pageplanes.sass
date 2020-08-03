@@ -1,0 +1,146 @@
+body
+    &.popup-active
+        overflow: hidden
+
+#box-popup-page-planes
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    height: 100%
+    opacity: 0
+    z-index: -9999999999
+    background: rgba(0,0,0,0.8)
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    &.active
+        opacity: 1
+        z-index: 9999999999
+
+
+
+.box-popup-planes
+    width: 100%
+    max-width: 440px
+    margin: 0 auto
+    position: relative
+    margin-top: 200px
+    @include media-screen(phone)
+        margin-right: 25px
+        margin-left: 25px
+        margin-top: 100px
+    &__header
+        position: absolute
+        top: -15px
+        right: -15px
+        .box-btn-close
+            width: 32px
+            height: 32px
+            background: #129ea2
+            border-radius: 100%
+            text-align: center
+            display: block
+            &:hover,
+            &:focus
+                .fa
+                    text-decoration: none
+            .fa
+                line-height: 32px
+                color: #ffffff
+                font-size: 20px
+
+    &__body
+        border-radius: 4px;
+        box-shadow: 0 15px 15px 0 rgba(50, 67, 83, 0.15)
+        background-color: #ffffff
+        .box-popup-planes-description
+            padding: 27px 84px
+            font-family: $font-roboto
+            @include media-screen(phone)
+                padding: 27px
+            @media screen and (max-width: 320px)
+                padding: 20px 15px
+
+            .box-plan-content-comercial
+                padding: 0
+                border: none
+
+            &__title
+                margin-top: 0
+                text-align: center
+                color: #9f5ed9
+                font-size: 24px
+                font-weight: $regular
+                margin-bottom: 5px
+
+            &__precio
+                display: flex
+                align-items: flex-start
+                justify-content: center
+                font-family: 'multicolore'
+                color: #000000
+                .moneda
+                    padding-top: 0px
+                    font-size: 18px
+                    line-height: 20px
+                .price
+                    font-size: 32px
+                    line-height: 30px
+                .tagciclo
+                    padding-top: 15px !important
+                    font-family: $font-roboto
+
+            &__detail
+                margin-top: 12px
+                margin-bottom: 12px
+                padding: 15px 0
+                border-top: 1px dashed #000000
+                border-bottom: 1px dashed #000000
+                display: none
+                &--active
+                    display: block
+
+
+
+
+            &__appsilimitas
+                display: flex
+                flex-wrap: wrap
+                display: none
+                &--active
+                    display: flex
+                .appsilimitasitem
+                    margin-bottom: 13px
+                    font-size: 12px
+                    font-weight: $regular
+                    &__title
+                        margin-bottom: 10px
+                        span
+                            color: #129ea2
+                    &__list
+                        display: flex
+                        padding: 0
+                        margin: 0
+                        flex-wrap: wrap
+                        li
+                            list-style: none
+                            margin-right: 10px
+                            margin-bottom: 5px
+                            &:last-child
+                                margin-right: 0
+                            span
+                                display: block
+                                color: #129ea2
+                    &__description
+                        margin-bottom: 0
+                        color: #129ea2
+
+                    &--social-media
+                        width: 100%
+                    &--musica
+                        width: 65%
+                    &--juegos
+                        width: 35%

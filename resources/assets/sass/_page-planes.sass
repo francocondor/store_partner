@@ -1,0 +1,571 @@
+.page-equipo-planes
+	padding: 0 !important
+	max-width: 680px
+
+.page-equipo-planes-header
+	margin-bottom: 29px
+	.title
+		font-family: "Roboto", sans-serif
+		font-weight: 300
+		font-size: 30px
+		color: #000000
+		margin: 0
+		strong
+			display: block
+			font-weight: 700
+			font-size: 22px
+
+	&__phone
+		display: none
+		@include media-screen(phone)
+			display: block
+			padding-left: 15px
+			padding-right: 15px
+		.title
+			font-size: 20px
+			strong
+				display: inline
+				font-size: 20px
+				
+	&__desktop
+		@include media-screen(phone)
+			display: none
+	
+
+					
+
+
+
+
+
+
+
+
+
+#section-page-planes
+	background: #ffffff
+	box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07)
+	border: solid 1px #e4e4e4
+	border-radius: 4px
+	margin-top: 46px
+	margin-bottom: 28px
+	padding: 30px 37px
+	display: flex
+	justify-content: space-between
+	@include media-screen(phone)
+		padding-left: 0
+		padding-right: 0
+
+
+
+.section-planes
+	&.disabled
+		cursor: no-droip
+	&__tab
+		margin-bottom: 40px
+		@include media-screen(phone)
+			margin-bottom: 0
+			
+	
+
+
+
+		&.active
+			a
+				line-height: 46px
+				height: 46px
+		ul
+			list-style: none
+			display: flex
+			align-items: flex-end
+			padding: 0
+			margin: 0
+			border-left: 1px solid white
+			border-right: 1px solid white
+			position: relative
+			@include media-screen(phone)
+				border: none
+
+			&::before
+				content: ""
+				width: 100%
+				border-left: 2px solid white
+				border-right: 2px solid white
+				position: absolute
+				bottom: -1px
+				z-index: 9
+				height: 2px
+				background: #129ea2
+				@include media-screen(phone)
+					border: none
+
+			li
+				border-left: 2px solid white
+				border-right: 2px solid white
+				width: 25%
+				margin: 0
+				height: 42px
+				line-height: 42px
+				background-color: #f7f7f7
+				text-align: center
+				border-radius: 6px 6px 0 0
+				transition: 0.3s ease all
+				overflow: hidden
+				@include media-screen(phone)
+					border: none
+
+				&.disabled
+					opacity: 0.5
+					&:hover
+						background-color: #f7f7f7
+					a
+						&:hover
+							color: #000000
+							cursor: no-drop
+
+
+
+				&:hover
+					background: #129ea2
+					a
+						color: #ffffff
+
+				&.active
+					background: #129ea2
+					line-height: 42px
+					height: 42px
+					a
+						color: #ffffff
+						text-decoration: none
+
+				a
+					text-transform: uppercase
+					line-height: 42px
+					font-size: 12px
+					color: #000000
+					font-weight: $medium
+					display: block
+					&:hover
+						text-decoration: none
+
+		&--portabilidad
+			height: 46px !important
+			line-height: 46px !important
+			@include media-screen(phone)
+				height: 42px !important
+				line-height: 42px !important
+
+
+	&__type
+		padding-left: 21px
+		padding-right: 21px
+		@include media-screen(phone)
+			padding-top: 28px
+			padding-left: 15px
+			padding-right: 15px
+
+		&--portabilidad,
+		&--linea-nueva,
+		&--prepago,
+		&--renovacion
+			display: block !important
+
+		&--renovacion
+			display: block
+			.box-select-type-radio
+				&:first-child
+					input
+						&::after
+							top: 7px !important
+							left: 5px !important
+
+				&:last-child
+					input
+						&::after
+							top: 7px !important
+							left: 4px !important
+
+
+		.planes-tab-content
+			@include media-screen(phone)
+				padding-bottom: 12px
+
+			&__select-plan
+				position: relative
+				margin-bottom: 25px
+
+				.box-icon-form-up-down
+					position: absolute
+					top: 14px
+					right: 15px
+					display: flex
+					flex-direction: column
+					.fa
+						font-size: 18px
+						line-height: 10px
+						color: #129ea2
+
+				span
+					z-index: 9
+					position: absolute
+					left: 15px
+					top: -8px
+					background: #fff
+					padding: 0 5px
+					font-size: 12px
+					font-weight: $medium
+					display: inline-block
+					color: #129ea2
+
+
+				select
+					width: 100%
+					height: 46px
+					line-height: 46px
+					-webkit-appearance: none
+					-moz-appearance: none
+					border: 1px solid rgba(16, 168, 176, 0.45)
+					background-color: #fff
+					box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04)
+					padding: 0 19px
+					font-size: 15px
+					color: #4a4a4a
+
+			&__description
+				display: flex
+				border: 1px solid #dddddd
+				box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.05)
+				padding: 0px 14px
+				position: relative
+				align-items: center
+				border-radius: 6px
+				margin-bottom: 19px
+				@include media-screen(phone)
+					margin-bottom: 0
+					flex-wrap: wrap
+					padding-left: 0
+					padding-right: 0
+
+
+				&::before
+					z-index: 99
+					position: absolute
+					top: -10px
+					left: 150px
+					content: ""
+					width: 0
+					height: 0
+					border-bottom: 12px solid white
+					border-right: 12px solid transparent
+					border-left: 12px solid transparent
+
+
+				&::after
+					z-index: 9
+					position: absolute
+					top: -12px
+					left: 150px
+					content: ""
+					width: 0
+					height: 0
+					border-bottom: 12px solid #dddddd
+					border-right: 12px solid transparent
+					border-left: 12px solid transparent
+
+
+				&--socialmedia
+					width: 35%
+					@include media-screen(phone)
+						width: 60%
+					ul.plan-item-socialmedia 
+						margin: 0
+						padding: 0
+						display: flex
+						list-style: none
+						justify-content: center
+						display: none
+						&.plan-item-socialmedia-active
+							display: flex
+						li
+						margin: 0 3px
+
+
+
+
+				&--information
+					width: 50%
+					display: flex
+					flex-direction: column
+					@include media-screen(phone)
+						width: 40%
+					.plan-information-item
+						flex-wrap: wrap
+						width: 100%
+						display: none
+						&.plan-information-active
+							display: flex
+					.box-information-plan
+						width: 50%
+						padding: 10px 12px
+						// &:last-child
+						// 	display: none
+						@include media-screen(phone)
+							width: 100%
+
+						&__description
+							font-size: 14px
+							font-weight: $light
+							margin-bottom: 4px
+							display: block
+
+
+						&__value
+							font-size: 14px
+							font-weight: $medium
+							margin: 0
+
+
+
+
+				&--vermas
+					width: 15%
+					border-radius: 6px
+					box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04)
+					border: solid 1px #e6e6e6
+					background-color: #ffffff
+					@include media-screen(phone)
+						width: 100%
+						border: none
+						border-top: solid 1px #e6e6e6
+						border-radius: 0 0 6px 6px
+
+					a
+						font-size: 12px
+						color: #129ea2
+						line-height: 34px
+						display: flex
+						justify-content: center
+
+			&__modalidad
+				border-radius: 6px
+				box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.05)
+				border: solid 1px #dddddd
+				background-color: #ffffff
+				margin-bottom: 21px
+
+				&--title
+					padding-top: 13px
+					padding-bottom: 13px
+					text-align: center
+					border-bottom: 1px solid #dddddd
+
+					span
+						color: #129ea2
+
+
+
+				&--select
+					display: flex
+					justify-content: center
+					position: relative
+
+					.box-select-type-radio
+						position: relative
+						height: 64px
+						width: 50%
+						display: flex
+						justify-content: center
+						align-items: center
+						@include media-screen(phone)
+							padding: 0 15px !important
+							padding-bottom: 20px !important
+
+						&__input
+							margin: 0
+							-webkit-appearance: none
+							-moz-appearance: none
+							height: 20px
+							line-height: 20px
+							padding-left: 25px
+							position: relative
+
+							&:checked::after
+								background: #9f5ed9
+
+							&:checked::before
+								border: solid 1px #9f5ed9
+								// outline: 1px solid #9f5ed9
+
+							&::after
+								content: ""
+								width: 10px
+								height: 10px
+								background: #ffffff
+								border-radius: 100%
+								position: absolute
+								top: 7px
+								left: 4px
+								transition: .3s ease all
+								@include media-screen(phone)
+									top: 8px
+									left: 5px
+
+							&::before
+								content: ""
+								width: 20px
+								height: 20px
+								border-radius: 100%
+								position: absolute
+								top: 2px
+								left: 0px
+								box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07)
+								border: solid 1px #bbbaba
+								// outline: 1px solid #e4e4e4
+								background-color: #ffffff
+								transition: .3s ease all
+
+						&__label
+							position: relative
+							margin: 0
+							font-weight: $light
+							// padding-left: 25px
+							display: flex
+							align-items: center
+							line-height: 20px
+							height: 20px
+
+							span
+								font-weight: $light
+								display: block
+								line-height: 20px
+								height: 20px
+
+								strong
+									font-weight: $medium
+
+						.fa
+							line-height: 20px
+
+
+
+
+
+
+
+			&__precioSimCard
+				position: relative
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+
+				&--title
+					margin-left: 35px
+					display: flex
+					justify-content: center
+					text-align: center
+					display: block
+					border-radius: 13px
+					box-shadow: -4px 4px 0 0 rgba(217, 217, 217, 0.39)
+					background-image: linear-gradient(91deg, #c001ff 0%, #8000fd 100%)
+					width: 133px
+					height: 26px
+					line-height: 26px
+					font-size: 12px
+					font-weight: $medium
+					position: relative
+					z-index: 9
+
+					span
+						color: #fff
+
+
+
+				&--price
+					width: 170px
+					position: relative
+					top: -16px
+					display: flex
+					align-items: flex-start
+					justify-content: center
+					padding-top: 30px
+					padding-bottom: 18px
+					height: 70px
+					border-radius: 35px
+					background-image: radial-gradient(circle at 50% 72%, #fcfcfc, #e8e8e8 262%)
+
+					.price-moneda
+						font-size: 24px
+
+					.price-count
+						font-size: 42px
+						line-height: 20px
+
+					span
+						font-size: 20px
+						font-family: "multicolore"
+						line-height: 15px
+
+
+
+
+
+		.planes-precio-content
+			// @include media-screen(phone)
+			// 	padding-left: 16px
+			// 	padding-right: 16px
+
+
+		#box-detalle-product
+			@include media-screen(phone)
+				margin-bottom: 0
+
+
+			.detalle-plan-chip-postpago
+				height: 72px
+
+				&::before
+					right: 0 !important
+
+
+				&::after
+					right: 0 !important
+
+
+				.price-product
+					height: 100%
+
+					p
+						margin-bottom: 5px
+						margin-top: 10px
+
+
+					.preci-cant
+						span
+							padding: 0
+
+							&.price
+								font-size: 32px
+								line-height: 30px
+
+
+				.plan-product
+					height: 100%
+
+					p
+						margin-top: 10px
+						margin-bottom: 5px
+
+					.preci-cant
+						span
+							padding: 0
+
+							&.price
+								font-size: 32px
+								line-height: 30px
+
+
+							&.tagciclo
+								padding-top: 15px !important
+
+

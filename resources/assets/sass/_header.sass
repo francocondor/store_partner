@@ -1,0 +1,116 @@
+// .armatuplan-item
+//     display: flex;
+//     align-items: center;
+//     padding-top: 3px;
+//     padding-bottom: 3px;
+//     padding-left: 10px;
+//     padding-right: 15px;
+//     border-radius: 35px;
+//     border: 1px solid #EAC416;
+
+//     @media screen and (max-width: 1170px)
+//         display: block;
+//         border-radius: none;
+//         border: none;
+//         margin-left: 0;
+//     span
+//         font-weight: bold;
+//         font-size: 14px;
+//         // color: #008c95;
+//         margin-left: 20px;
+//         padding-right: 25px;
+//         padding-top: 5px;
+//         padding-bottom: 5px;
+//         background: url('/storage/images/flecha.png') right center no-repeat;
+
+    
+//         @media screen and (max-width: 1170px)
+//             color: #ffffff;
+//             display: block;
+//             margin-bottom: 10px;
+//             width: 130px;
+//     ul
+//         margin-bottom: 0px            
+//     li
+//         list-style: none
+//         a
+//             white-space: nowrap
+            
+    
+//     .armatuplan-itemlist
+//         ul
+//             li
+//                 position: relative
+//                 @media screen and (max-width: 1170px)
+//                     border-bottom: 0px !important
+//                 &:before
+//                     content: ""
+//                     background: red
+//                     width: 20px
+//                     height: 20px
+//                     position: absolute
+//                     left: -30px
+//                     top: 10px
+//                 a
+//                     color: black !important
+//                     &:hover
+//                         background: transparent !important
+//                         color: #008c95
+//                     @media screen and (max-width: 1170px)
+//                         color: #ffffff !important;
+//                         display: block;
+//                         margin-bottom: 10px;
+//                         width: 130px;
+
+.armatuplan-item
+    .armatuplan-itemlist
+        display: flex;
+        align-items: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 15px;
+        border-radius: 35px;
+        border: 1px solid #EAC416;
+        justify-content: flex-end
+        white-space: nowrap
+        height: 48px
+        width: 160px !important
+        text-decoration: none
+        color: black
+        position: relative
+        &:hover
+            color: #008c95
+            border: 1px solid #008c95;
+            &:before
+                background: url("/images/armatuplan/icon-armatuplan-hover.svg") center center no-repeat
+                background-size: contain
+                width: 22px
+                height: 22px
+                position: absolute
+                left: 20px
+                top: 12px
+
+        &:before
+            content: ""
+            background: url("/images/armatuplan/icon-armatuplan.svg") center center no-repeat
+            background-size: contain
+            width: 22px
+            height: 22px
+            position: absolute
+            left: 20px
+            top: 12px
+        @media screen and (max-width: 768px)
+            color: white
+            border: none
+            &:hover
+                color: #EAC416
+            &:before
+                content: ""
+                background: url("/images/armatuplan/icon-armatuplan-blanco.svg") center center no-repeat
+                background-size: contain
+                width: 22px
+                height: 22px
+                position: absolute
+                left: 20px
+                top: 12px

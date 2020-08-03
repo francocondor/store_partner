@@ -1,0 +1,157 @@
+[
+	{
+		"path": "$ROOTPATH$/resources/assets/js/app.js",
+		"bookmarks": [
+			{
+				"line": 106,
+				"column": 22,
+				"label": ""
+			},
+			{
+				"line": 651,
+				"column": 17,
+				"label": ""
+			},
+			{
+				"line": 2023,
+				"column": 43,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/app/Http/Controllers/PlanOrderController.php",
+		"bookmarks": [
+			{
+				"line": 100,
+				"column": 53,
+				"label": ""
+			},
+			{
+				"line": 519,
+				"column": 1,
+				"label": ""
+			},
+			{
+				"line": 689,
+				"column": 34,
+				"label": ""
+			},
+			{
+				"line": 755,
+				"column": 87,
+				"label": ""
+			},
+			{
+				"line": 1116,
+				"column": 40,
+				"label": ""
+			},
+			{
+				"line": 1359,
+				"column": 36,
+				"label": ""
+			},
+			{
+				"line": 1389,
+				"column": 4,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/app/Http/Controllers/FlujoRapidoEqidPrepagoController.php",
+		"bookmarks": [
+			{
+				"line": 75,
+				"column": 69,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/resources/views/flujorapidoequipos/index.blade.php",
+		"bookmarks": [
+			{
+				"line": 563,
+				"column": 61,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/app/Http/Controllers/FlujoRapidoEqidController.php",
+		"bookmarks": [
+			{
+				"line": 50,
+				"column": 44,
+				"label": ""
+			},
+			{
+				"line": 63,
+				"column": 32,
+				"label": ""
+			},
+			{
+				"line": 77,
+				"column": 30,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "/Users/juniormeza/Desktop/filter.use_bcss.php",
+		"bookmarks": [
+			{
+				"line": 1318,
+				"column": 40,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/resources/views/flujorapido/index.blade.php",
+		"bookmarks": [
+			{
+				"line": 404,
+				"column": 70,
+				"label": ""
+			},
+			{
+				"line": 581,
+				"column": 82,
+				"label": ""
+			},
+			{
+				"line": 774,
+				"column": 86,
+				"label": ""
+			},
+			{
+				"line": 1036,
+				"column": 38,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/resources/views/flujorapido/index.blade copy.php",
+		"bookmarks": [
+			{
+				"line": 411,
+				"column": 70,
+				"label": ""
+			},
+			{
+				"line": 575,
+				"column": 82,
+				"label": ""
+			},
+			{
+				"line": 715,
+				"column": 86,
+				"label": ""
+			}
+		]
+	}
+]

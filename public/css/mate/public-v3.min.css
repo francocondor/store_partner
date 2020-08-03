@@ -1,0 +1,894 @@
+body{position:relative;display:block}
+body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,header,menu,nav,output,ruby,section,summary,time,mark,audio,video,p{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+footer{margin:0;border:0;font-size:100%;font:inherit;vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}
+.conv3_wrap{padding-top:0 !important}
+@font-face{font-family:'akkuratpro-light';src:url('public-v3/fonts/akkurat-pro-light.woff2') format('woff2'),url('public-v3/fonts/akkurat-pro-light.woff') format('woff'),url('public-v3/fonts/akkurat-pro-light.otf') format('opentype');font-style:normal;font-weight:300}
+@font-face{font-family:'akkuratpro-bold';src:url('public-v3/fonts/akkurat-pro-bold.woff2') format('woff2'),url('public-v3/fonts/akkurat-pro-bold.woff') format('woff'),url('public-v3/fonts/akkurat-pro-bold.otf') format('opentype');font-style:normal;font-weight:900}
+@font-face{font-family:'akkuratPro-regular';src:url('public-v3/fonts/akkurat-pro-regular.woff2') format('woff2'),url('public-v3/fonts/akkurat-pro-regular.woff') format('woff'),url('public-v3/fonts/akkurat-pro-regular.otf') format('opentype');font-style:normal;font-weight:500}
+body{font-size:12px;line-height:1.5em;font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif,"&#24494;&#36719;&#38597;&#40657;","&#23435;&#20307;","Verdana,Arial,Helvetica,sans-serif";margin:0 auto;color:#000;overflow-x:hidden}
+ol,ul{list-style:none}
+a{text-decoration:none;color:#000}
+img{border:0;vertical-align:middle}
+em{font-style:normal}
+input,button,select,textarea{margin:0;padding:0;outline:0}
+.clear{clear:both;width:0;height:0;padding:0;margin:0;overflow:hidden;font-size:0;line-height:0}
+.clearfix{zoom:1}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+input::-webkit-input-placeholder{color:#999 !important}
+input:-moz-placeholder{color:#999 !important}
+input::-moz-placeholder{color:#999 !important}
+input:-ms-input-placeholder{color:#999 !important}
+input::-ms-clear{display:none}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.header-tag-title{display:none !important}
+.huawei-v3 .content-v3{margin-top:66px}
+.huawei-v3 .huawei-ie-tips{background:#a6a6a6;padding:15px 0;display:none}
+.huawei-v3 .huawei-ie-cnt{width:90%;max-width:1350px;margin:0 auto;position:relative}
+.huawei-v3 .huawei-ie-cnt .huawei-ie-txt{font-size:14px;color:#000;padding-right:60px;text-align:left}
+.huawei-v3 .huawei-ie-cnt .huawei-ie-close{display:inline-block;position:absolute;top:50%;right:0;height:27px;width:27px;background:url("images/v3-icon.svg") no-repeat;background-position:-218px -85px;margin-top:-13px}
+.huawei-v3 .huawei-app-cookie{display:none}
+.huawei-v3 .huawei-cookie{background:#d7d7d7;padding:15px 0;display:none}
+.huawei-v3 .huawei-cookie-cnt{width:90%;max-width:1350px;margin:0 auto;position:relative}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-txt{font-size:14px;color:#000;padding-right:60px;text-align:left}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-txt a{font-weight:bold;text-decoration:underline}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-close{display:inline-block;position:absolute;top:50%;right:0;height:32px;width:32px;-webkit-transform:translateY(-50%);transform:translateY(-50%);cursor:pointer}
+.huawei-v3 .cork{width:100%;height:66px}
+.huawei-v3 #header-v3{position:fixed;width:100%;z-index:150;top:0;background:#fff}
+.huawei-v3 #header-v3 .header-wrap{text-align:center;height:65px;position:relative;padding:0 5%;background:#fff;z-index:152}
+.huawei-v3 #header-v3 .header-wrap .bot{-webkit-transform:scale(0.5);transform:scale(0.5);position:absolute;border-bottom:1px solid rgba(111,111,111,0.5);bottom:0;left:-50%;right:-50%}
+.huawei-v3 .header-wrap .logo-wrap{display:inline-block;padding-top:24px;position:relative;width:153px;height:34px}
+.huawei-v3 .header-wrap .logo-wrap .logo{display:inline-block;width:153px;height:34px;background:url("images/v3-icon.svg") no-repeat;background-position:-29px -26px;position:absolute;top:8px;left:0}
+.huawei-v3 .header-wrap .nav-wrap{display:inline-block;margin-left:130px}
+.huawei-v3 .header-wrap .nav-wrap ul{height:65px;line-height:65px;clear:none !important;overflow:inherit}
+.huawei-v3 .header-wrap .nav-wrap ul li{float:left;margin-right:57px}
+.huawei-v3 .header-wrap .nav-wrap ul li:last-child{margin-right:0}
+.huawei-v3 .header-wrap .nav-wrap ul li a{font-size:16px;color:#6f6f6f;position:relative;display:inline-block;padding-right:11px}
+.huawei-v3 .header-wrap .nav-wrap ul li a::after{content:"";width:7px;height:6px;display:inline-block;background:url("images/v3-icon.svg") no-repeat;background-position:-21px -96px;position:absolute;top:50%;right:0;margin-top:-3px}
+.huawei-v3 .header-wrap .nav-wrap ul .current a::after{background-position:-37px -97px}
+.huawei-v3 .header-wrap .nav-wrap ul .current .products-name{color:#000}
+.huawei-v3 .header-wrap .nav-wrap ul li a img{width:100%}
+.huawei-v3 .header-wrap .nav-wrap ul li .current{color:#000}
+.huawei-v3 .header-wrap .nav-wrap ul li .current::after{background-position:-37px -97px}
+.huawei-v3 .header-wrap .nav-wrap ul li .jump-v3::after{background-position:-21px -144px;width:5px;height:9px;top:50%;margin-top:-5px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap{display:none;position:absolute;left:0;top:65px;width:100%;background:#f9f9f9;-webkit-box-shadow:0 5px 11px 0 rgba(0,0,0,0.4);box-shadow:0 5px 11px 0 rgba(0,0,0,0.4)}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt{background:#f9f9f9;height:437px;max-width:1360px;margin:0 auto;padding:0 30px;position:relative;-webkit-box-sizing:content-box;box-sizing:content-box}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap .close{cursor:pointer;display:inline-block;height:32px;width:32px;position:absolute;top:10px;right:10px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap .close svg{float:left}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap .close::after{display:none}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-wrap-hd{padding-top:30px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-wrap-bd{padding-top:128px;overflow:inherit}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-wrap-bd.sloganHeight{padding-top:168px}
+.huawei-v3 .header-wrap .nav-wrap .products-left{float:left;width:1030px;position:relative}
+.huawei-v3 .header-wrap .nav-wrap .products-left.products-left-no-browse{float:none;margin:auto}
+.huawei-v3 .header-wrap .nav-wrap .products-left .slogan{position:absolute;top:-100px;left:0;width:100%;font-size:24px;color:#000;line-height:29px;height:58px;overflow:hidden}
+.huawei-v3 .header-wrap .nav-wrap .products-left ul{height:auto;line-height:normal;width:100%;display:-webkit-box;display:flex;display:-webkit-flex;-webkit-box-pack:justify;justify-content:space-between;display:-ms-flexbox;-ms-flex-direction:row;-ms-flex-wrap:wrap;-ms-flex-pack:justify}
+.huawei-v3 .header-wrap .nav-wrap .products-left li{width:170px;margin-right:0}
+.huawei-v3 .header-wrap .nav-wrap .products-left li a{display:block}
+.huawei-v3 .header-wrap .nav-wrap .products-left li a:hover span{text-decoration:underline;color:#000}
+.huawei-v3 .header-wrap .nav-wrap .products-left li a::after{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-left li a span{display:block;margin-top:35px;font-size:15px;color:#6f6f6f}
+.huawei-v3 .header-wrap .nav-wrap .products-left li .view-all span::after{content:"";width:5px;height:9px;display:inline-block;background:url("images/v3-icon.svg") no-repeat;background-position:-21px -144px;margin-left:5px}
+.huawei-v3 .header-wrap .nav-wrap .products-right{float:left;margin-left:70px;position:relative;width:230px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .right-line{float:left;width:1px;height:166px;background:#999}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt{width:100%;padding-left:70px;text-align:left;position:absolute;top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);display:block}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt .products-h2{font-size:24px;color:#6f6f6f;display:block;line-height:29px;margin-bottom:32px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul{float:none;line-height:normal;height:auto}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li{float:none;margin-right:0;margin-bottom:20px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a::after{background-position:-21px -144px;width:5px;height:9px;position:static;margin-left:10px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a:hover{text-decoration:underline;color:#000}
+.huawei-v3 .header-wrap .left-box{float:left}
+.huawei-v3 .header-wrap .nav-wrap .products-left li .view-all span{position:relative}
+.huawei-v3 .header-wrap .left-box{height:65px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul .app-sign{display:none}
+.huawei-v3 .header-wrap .right-box{display:block;margin-left:230px;float:left;margin-top:12px}
+.huawei-v3 .header-wrap .right-box .search-wrap{float:left;width:24px;height:24px;margin-top:9px}
+.huawei-v3 .header-wrap .right-box .search-wrap a{display:inline-block;width:24px;height:24px}
+.huawei-v3 .header-wrap .right-box .login{float:left;margin-left:35px;position:relative;width:24px;height:24px;margin-top:9px}
+.huawei-v3 .header-wrap .right-box .login a{display:inline-block;width:24px;height:24px;position:absolute;top:0;left:0}
+.huawei-v3 .header-wrap .right-box .shop-bag{float:left;margin-left:35px;position:relative;margin-top:9px}
+.huawei-v3 .header-wrap .right-box .shop-bag .line{display:inline-block;width:1px;height:22px;background-color:#6f6f6f;position:absolute;left:0;top:0}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap{overflow:hidden;height:40px;line-height:40px;margin-left:35px;display:inline-block;background-color:transparent;position:relative;-webkit-transition:all .15s ease-in;transition:all .15s ease-in;z-index:0;color:#fff;border-color:#fff;-webkit-transition:all .15s ease-in,background-color 0;transition:all .15s ease-in,background-color 0;padding:0 25px 0 58px;border-radius:8px;font-size:13px}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap::before{position:absolute;bottom:0;left:0;z-index:-1;width:100%;height:0;background-color:#fff;content:'';-webkit-transition:all .15s ease-in;transition:all .15s ease-in}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap:hover{color:#1c1c1c;border-color:#fff}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap:hover::before{height:100%}
+.huawei-v3 .header-wrap .right-box .shop-bag .black-bnt{border:1px solid #242728;color:#242728}
+.huawei-v3 .header-wrap .right-box .shop-bag .black-bnt::before{background-color:#242728}
+.huawei-v3 .header-wrap .right-box .shop-bag .black-bnt:hover{color:#fff;border-color:#242728}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap::after{content:"";width:15px;height:18px;display:inline-block;background:url(images/v3-icon.svg) no-repeat;background-position:-178px -90px;position:absolute;top:10px;left:25px}
+.huawei-v3 .header-wrap .right-box .shop-bag .bnt-wrap:hover::after{background-position:-196px -89px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a{position:relative;display:inline-block;padding-right:0}
+.huawei-v3 .header-wrap .right-box .shop-bag .shop-bag-bnt{position:relative;height:24px;line-height:24px;margin-left:35px;display:inline-block;font-size:13px;color:#6f6f6f;padding-right:30px}
+.huawei-v3 .header-wrap .right-box .shop-bag .shop-bag-bnt:hover{text-decoration:underline;color:#000}
+.huawei-v3 .header-wrap .right-box .shop-bag .shop-bag-bnt svg{width:24px;height:24px;position:absolute;top:0;right:0}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-left{width:auto}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right{width:80%}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-right .products-right-cnt-only{display:none}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .products-right-cnt-only{display:block}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap{padding:20px 0 20px 70px;height:126px;text-align:left;position:relative}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap p{line-height:16px;font-size:12px;color:#6f6f6f;text-align:left}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap{position:absolute;bottom:7px;left:70px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap a{display:inline-block;padding:14px 50px 12px;border:1px solid #6f6f6f;border-radius:8px;line-height:14px;font-size:13px;color:#242728}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap a::after{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-cnt .only .products-left li img{width:100%}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only-middle .products-left{display:inline-block;float:none;vertical-align:top}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only-middle .products-right{display:inline-block;width:auto;float:none;max-width:600px;min-width:300px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap{display:none;position:absolute;left:-84px;top:53px;width:176px;border:1px solid #e2e2e2;border-radius:8px;background:#fff}
+.huawei-v3 .header-wrap .right-box .login .login-wrap span{width:0;height:0;font-size:0;overflow:hidden;position:absolute}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-top{border-width:10px;border-style:solid dashed dashed;border-color:transparent transparent #fff;left:80px;bottom:-1px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-bot{border-width:10px;border-style:solid dashed dashed;border-color:transparent transparent #e2e2e2;left:80px;bottom:1px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt{width:176px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul{float:none;height:auto;line-height:normal}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li{margin-right:0;width:100%;border-bottom:1px solid #ddd}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li:last-child{border-bottom:0}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li:nth-last-child(2){border-bottom:0}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a{font-size:13px;color:#242728;display:block;width:auto;height:auto;background:0;background-position:initial;position:relative;top:0;left:0;padding:20px 10px 20px 80px;text-align:left}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-font{position:relative}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a::after{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a svg{position:absolute;top:50%;left:15px;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a.sign-in::before{content:"";width:29px;height:28px;display:inline-block;background:url("images/v3-icon.svg") no-repeat;background-position:-55px -496px;position:absolute;top:50%;left:30px;margin-top:-14px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a.sign-up::before{content:"";width:29px;height:28px;display:inline-block;background:url("images/v3-icon.svg") no-repeat;background-position:-8px -496px;position:absolute;top:50%;left:30px;margin-top:-14px}
+.huawei-v3 .header-wrap .app-search{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-left .app-view-wrap{display:none}
+.huawei-v3 #footer-v3{background:#f9f9f9}
+.huawei-v3 .footer-cnt{width:90%;margin:0 auto;max-width:2560px}
+.huawei-v3 .footer-cnt .bot::before{content:"";position:absolute;width:200%;height:1px;bottom:0;left:0;border-bottom:1px solid rgba(111,111,111,0.5);-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scale(0.5,0.5);transform:scale(0.5,0.5);-webkit-box-sizing:border-box;box-sizing:border-box}
+.huawei-v3 .bread-crumb{position:relative;padding-top:30px}
+.huawei-v3 .bread-crumb li{float:left}
+.huawei-v3 .bread-crumb li:last-child b{display:none}
+.huawei-v3 .bread-crumb span{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .bread-crumb a{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .bread-crumb a:hover{color:#242728;text-decoration:underline}
+.huawei-v3 .bread-crumb b{font-size:13px;color:#242728;text-decoration:underline;margin-left:12px}
+.huawei-v3 .bread-crumb b::before{content:"";display:inline-block;width:5px;height:9px;background:url("images/v3-icon.svg") no-repeat;background-position:-21px -144px;margin-right:12px}
+.huawei-v3 .footer-top{margin-top:30px}
+.huawei-v3 .footer-top .hp{margin-top:20px;text-align:left;font-family:"AkkuratPro-Bold"}
+.huawei-v3 .footer-top .hp a{font-size:12px;color:#000}
+.huawei-v3 .footer-top .hp a:hover{color:#c9282c}
+.huawei-v3 .footer-top .hp span{font-size:12px;color:#000}
+.huawei-v3 .footer-top .hp i{width:8px;height:8px;border-right:1px solid #bababa;border-bottom:1px solid #bababa;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);transform:rotate(-45deg);display:inline-block;vertical-align:middle;margin:0 15px}
+.huawei-v3 .footer-top .cnt-wrap .l-box{width:70%;float:left}
+.huawei-v3 .footer-top .cnt-wrap .l-box .bot{display:none}
+.huawei-v3 .footer-top .cnt-wrap .list{float:left;width:25%;text-align:left}
+.huawei-v3 .footer-top .cnt-wrap .list .list-h3{font-family:"AkkuratPro-Bold";font-size:16px;color:#242728;line-height:30px;margin-bottom:10px}
+.huawei-v3 .footer-top .cnt-wrap .list li{margin-bottom:8px}
+.huawei-v3 .footer-top .cnt-wrap .list li a{font-size:14px;color:#6f6f6f;display:inline-block;line-height:15px;padding-right:10px;position:relative}
+.huawei-v3 .footer-top .cnt-wrap .list li a:hover{color:#120000;text-decoration:underline}
+.huawei-v3 .footer-top .cnt-wrap .r-box{width:320px;float:right;text-align:left}
+.huawei-v3 .footer-top .cnt-wrap .follow-us{padding-bottom:20px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us .bot{display:none}
+.huawei-v3 .footer-top .cnt-wrap .follow-us .follow-us-h3{font-family:"AkkuratPro-Bold";font-size:16px;color:#242728;line-height:30px;margin-bottom:10px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li{float:left;margin-right:30px;margin-bottom:20px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li a{display:block;float:left;width:25px;height:25px;background:url("images/v3-icon.svg") no-repeat}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li a:hover{opacity:.5}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Twitter-icon{background-position:-18px -186px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Facebook-icon{background-position:-62px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Instagram-icon{background-position:-101px -187px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .LinkedIn-icon{background-position:-144px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Googleplus-icon{background-position:-190px -185px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Youtube-icon{background-position:-231px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Pinterest-icon{background-position:-275px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Tumblr-icon{background-position:-318px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Snapchat-icon{background-position:-361px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Line-icon{background-position:-520px -151px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Aparat-icon{background-position:-519px -189px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Tme-icon{background-position:-560px -188px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Kakao-icon{background-position:-558px -151px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .Naver-icon{background-position:-601px -188px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .OK-icon{background-position:-483px -188px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .VK-icon{background-position:-404px -188px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li .YK-icon{background-position:-445px -188px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .news-letter-signup-h3{font-family:"AkkuratPro-Bold";font-size:16px;color:#242728;line-height:30px;margin-bottom:3px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input{position:relative;display:block;padding-left:2%;width:96%;height:29px;padding-right:2%;font-size:16px;border:0;background:#fff;border-radius:6px;color:#5c5a5b;background-color:#fff;background-clip:padding-box;border:1px solid #c2c0c0;border-radius:.25rem;-webkit-transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input:focus{color:#5c5a5b;background-color:#fff;border-color:#f8647d;outline:0;-webkit-box-shadow:0 0 0 .2rem rgba(210,10,44,.25);box-shadow:0 0 0 .2rem rgba(210,10,44,.25)}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input::-webkit-input-placeholder{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input:-moz-placeholder{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input::-moz-placeholder{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input:-ms-input-placeholder{font-size:13px;color:#6f6f6f;line-height:30px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .bnt-wrap{position:relative;margin-top:15px;text-align:center;float:left;cursor:pointer;overflow:hidden;height:28px;line-height:28px;display:block;padding:0 18px;border-radius:6px;font-size:13px;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .black-bnt{color:#323232;background-color:transparent;background-image:none;border-color:#323232}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .black-bnt:hover{color:#fff;background-color:#323232;border-color:#323232}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .black-bnt:focus{-webkit-box-shadow:0 0 0 .2rem rgba(50,50,50,.5);box-shadow:0 0 0 .2rem rgba(50,50,50,.5)}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .check-box{position:relative;margin-top:15px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .check-box input[type="checkbox"]{width:11px;height:11px;border:1px solid #979797;background-color:#f9f9f9;background-color:#f9f9f9;-webkit-appearance:none;-moz-appearance:none;outline:0;cursor:pointer;margin-top:3px;float:left;margin-right:5px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .check-box input[type="checkbox"]:checked{background:url("public-v3/imges/select.png") no-repeat;background-size:cover}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .check-box p{font-size:10px;color:#6f6f6f}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .tips-v3{font-size:10px;color:#ce1d2c;line-height:14px;display:none;margin-top:4px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .signed-up-v3{color:#6f6f6f}
+.huawei-v3 .footer-top .cnt-wrap .list li .font-icon::after{content:"";display:inline-block;width:8px;height:8px;background:url("images/v3-icon.svg") no-repeat;background-position:-208px -144px;position:absolute;top:4px;right:-4px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .beyond{position:relative}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .beyond .ipt-newsletter{width:100%;padding:0}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .beyond #subscribe_email{width:100%;padding:0;margin-top:43px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .beyond .tips-v3{position:absolute;top:32px;left:0}
+.huawei-v3 .footer-bottom{margin-top:40px;padding-top:20px;padding-bottom:40px;position:relative}
+.huawei-v3 .footer-bottom .country{float:right}
+.huawei-v3 .footer-bottom .country .country-flag{display:inline-block;width:25px;margin-right:6px;vertical-align:middle}
+.huawei-v3 .footer-bottom .country .country-flag img{width:100%;vertical-align:text-bottom}
+.huawei-v3 .footer-bottom .country .country-name{font-size:12px;color:#6f6f6f}
+.huawei-v3 .footer-bottom .country a.a-common.lang_change .country-flag{display:none}
+.huawei-v3 .footer-bottom .country a{padding:0 15px}
+.huawei-v3 .footer-bottom .country a.a-common.region_change{padding-left:0}
+.huawei-v3 .footer-bottom .country a.a-common.lang_change{border-left:1px solid #ccc;padding-right:0}
+.huawei-v3 .footer-bottom .tnc-holder{display:inline-block}
+.huawei-v3 .footer-bottom .tnc-holder li{float:left;margin-right:20px}
+.huawei-v3 .footer-bottom .tnc-holder li a{font-size:13px;color:#6f6f6f}
+.huawei-v3 .footer-bottom .tnc-holder li a:hover{color:#120000;text-decoration:underline}
+.huawei-v3 .footer-bottom .copyright-holder{font-size:10px;color:#909090;text-align:left;margin-top:12px}
+.huawei-v3 .footer-bottom .bot::before{top:0}
+.huawei-v3 .footer-top .cnt-wrap .r-box .news-letter-signup .app-p{display:none}
+.huawei-v3 .app-nav .app-shop-bag a,.huawei-v3 .app-nav .app-search-icon{display:none}
+.content-v3-remark{margin:0 auto;position:relative;margin-top:-1px;width:90%}
+.remark-text{font-size:11px;color:#6f6f6f;line-height:20px;text-align:left;padding:20px 0}
+@media(max-width:1680px){.huawei-v3 .header-wrap .nav-wrap{margin-left:5%}
+.huawei-v3 .header-wrap .nav-wrap ul li{margin-right:34px}
+.huawei-v3 .header-wrap .right-box{margin-left:30px}
+.huawei-v3 .header-wrap .nav-wrap .products-right{margin-left:45px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt{padding-left:45px}
+.huawei-v3 .header-wrap .nav-wrap .products-left{float:left;width:910px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap{padding-left:50px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap{left:50px}
+}
+@media(max-width:1348px){.huawei-v3 .header-wrap .logo-wrap{width:40px;height:40px;padding-top:24px;float:left}
+.huawei-v3 .header-wrap .logo-wrap .logo{display:inline-block;width:40px;height:40px;background:url(images/v3-icon.svg) no-repeat;background-position:-208px -19px;position:absolute;top:12px;left:0}
+.huawei-v3 .header-wrap .nav-wrap{margin-left:0;float:right;width:92%}
+.huawei-v3 .header-wrap .nav-wrap ul li{margin-right:24px}
+.huawei-v3 .header-wrap .right-box{margin-left:15px;float:right}
+.huawei-v3 .header-wrap .right-box .login{margin-left:20px}
+.huawei-v3 .header-wrap .right-box .shop-bag{margin-left:20px}
+.huawei-v3 .header-wrap .right-box .shop-bag .shop-bag-bnt{margin-left:20px}
+.huawei-v3 #v3-header .header-wrap{padding:0 37px}
+.huawei-v3 .header-wrap .nav-wrap .nav-button{display:none;position:absolute;top:0;width:30px;height:40px;cursor:pointer;margin-top:12px;background:#fff;z-index:1}
+.huawei-v3 .header-wrap .nav-wrap .nav-button span{position:absolute;top:0;left:12px;width:7px;height:40px;background:url(images/v3-icon.svg) no-repeat;background-position:-134px -489px}
+.huawei-v3 .header-wrap .nav-wrap .nav-button span::before{content:"";width:5px;height:9px;display:inline-block;background:url(images/v3-icon.svg) no-repeat;background-position:-21px -144px;position:absolute;top:50%;right:12px;-webkit-transform:rotate(-180deg);transform:rotate(-180deg);margin-top:-3px}
+.huawei-v3 .header-wrap .nav-wrap .next-wrap span{background-position:-153px -489px}
+.huawei-v3 .header-wrap .nav-wrap .prev-wrap{left:-30px}
+.huawei-v3 .header-wrap .nav-wrap .next-wrap span::before{-webkit-transform:rotate(0);transform:rotate(0);left:12px}
+.huawei-v3 .header-wrap .nav-wrap .next-wrap{right:-30px}
+.huawei-v3 .header-wrap .nav-wrap .products-left{float:left;width:760px}
+.huawei-v3 .header-wrap .nav-wrap .products-left li{width:144px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt{padding:0 20px;width:980px}
+.huawei-v3 .header-wrap .nav-wrap .products-right{margin-left:20px;width:200px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt{padding-left:30px;width:87%}
+.huawei-v3 .header-wrap .left-box{padding:0 20px;margin-left:0}
+.huawei-v3 .header-wrap .left-box .botton-wrap{position:relative;display:none}
+}
+@media(max-width:1200px){.huawei-v3 .footer-top .cnt-wrap .r-box{width:260px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li{margin-right:26px}
+}
+@media(max-width:1100px){.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap .close{right:50px}
+}
+@media(max-width:1023px){.huawei-v3 .huawei-ie-tips{display:none}
+.huawei-v3 .huawei-cookie{display:none}
+.huawei-v3 .huawei-app-cookie{display:none;background:#d7d7d7;padding:15px 0}
+.huawei-v3 .huawei-cookie-cnt{width:90%;max-width:1024px;margin:0 auto;position:relative}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-txt{font-size:14px;color:#000;padding-right:40px}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-txt a{font-weight:bold;text-decoration:underline}
+.huawei-v3 .huawei-cookie-cnt .huawei-cookie-close{display:inline-block;position:absolute;top:50%;right:0;height:32px;width:32px;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.huawei-v3 #header-v3{border-bottom:0;position:fixed;top:0;overflow:hidden;background:#fff}
+.huawei-v3 #header-v3 .header-wrap{padding:0 5%;height:auto;overflow-y:auto}
+.huawei-v3 #header-v3 .header-wrap .bot{display:none;border:0 none}
+.huawei-v3 .header-wrap .logo-wrap{float:none;width:23px;height:23px;padding-top:21px}
+.huawei-v3 .header-wrap .logo-wrap .logo{width:23px;height:23px;background-position:-21px -306px;position:static}
+.huawei-v3 .header-wrap .nav-wrap .prev-wrap{display:none}
+.huawei-v3 .header-wrap .nav-wrap .next-wrap{display:none}
+.huawei-v3 .header-wrap .right-box .shop-bag{display:none}
+.huawei-v3 .header-wrap .nav-wrap{width:100%;background:#fff;display:none;float:none;padding-bottom:66px;z-index:10;overflow-x:hidden}
+.huawei-v3 .header-wrap .left-box{float:none;width:auto;padding:0;margin-left:0;height:auto}
+.huawei-v3 .header-wrap .nav-wrap .nav-cnt{float:none;height:auto;line-height:normal;padding-top:50px;width:auto}
+.huawei-v3 .header-wrap .nav-wrap ul li{float:none;margin-right:0;margin-bottom:27.5px}
+.huawei-v3 .header-wrap .nav-wrap ul li a{font-size:14px;letter-spacing:1px;display:block;text-align:left;padding:0 20px}
+.huawei-v3 .header-wrap .nav-wrap ul li a::after{right:22px}
+.huawei-v3 .header-wrap .right-box{margin:0 auto;width:100%;float:none}
+.huawei-v3 .header-wrap .right-box .search-wrap{display:none}
+.huawei-v3 .header-wrap .right-box .login{width:100%;height:60px;margin-left:0}
+.huawei-v3 .header-wrap .right-box .login a{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-wrap{display:block;position:static;border:0;border-radius:initial;width:100%}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-font{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt{width:100%}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul{padding:15px 20px 0}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li{border:1px solid #6f6f6f;border-radius:8px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li:last-child{border-bottom:1px solid #6f6f6f;margin-bottom:0}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a{font-size:14px;color:#242728;padding:13px 5px 13px 40px;text-align:center}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a::before{width:13px;height:12px;left:20px;margin-top:-5px;background-position:-108px -354px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li .sign-up::before{background-position:-128px -354px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul .app-sign{display:block}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul .app-sign a.sign-up::before{display:none}
+.huawei-v3 .header-wrap .app-search{display:block;position:relative;border-bottom:1px solid #6f6f6f;margin-top:20px}
+.huawei-v3 .header-wrap .app-search a{display:block;height:24px;font-size:14px;line-height:24px;text-align:left;padding-left:30px;color:#6f6f6f}
+.huawei-v3 .header-wrap .app-search a svg{position:absolute;top:0;left:0}
+.huawei-v3 #v3-header{border-bottom:0;z-index:8;position:static}
+.huawei-v3 .header-wrap .logo-wrap{display:none}
+.huawei-v3 .app-nav{text-align:center;position:fixed;width:100%;top:0;background:#fff;z-index:150}
+.huawei-v3 .app-nav .app-nav-wrap{height:65px;padding:0 5%;position:relative}
+.huawei-v3 .app-nav .app-nav-wrap .bot{-webkit-transform:scale(0.5);transform:scale(0.5);position:absolute;border-bottom:1px solid rgba(111,111,111,0.5);bottom:0;left:-50%;right:-50%}
+.huawei-v3 .app-nav .app-nav-icon{float:left;margin-top:16px;width:32px;height:32px;display:block;padding:0;position:relative}
+.huawei-v3 .app-nav .app-shop-bag,.huawei-v3 .app-nav .app-search-icon{float:right;margin-top:17.5px;display:block}
+.huawei-v3 .app-nav .app-shop-bag a{width:30px;height:26px;display:inline-block;line-height:0;border:1px solid #000;border-radius:8px;padding-top:4px}
+.huawei-v3 .app-nav .app-search-icon a{width:32px;height:32px;display:block;position:relative}
+.huawei-v3 .app-nav .app-search-icon{margin-top:16.5px}
+.huawei-v3 .app-nav .app-search-icon{position:relative}
+.huawei-v3 .app-nav .app-search-icon a{position:absolute;left:-32px}
+.huawei-v3 .app-nav .app-search-icon.clicked a:nth-child(1),.huawei-v3 .app-nav .app-search-icon a:nth-child(2){opacity:0;-webkit-transform:scale(0);transform:scale(0);transition:all .2s ease-out;-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;-o-transition:all .2s ease-out}
+.huawei-v3 .app-nav .app-search-icon a:nth-child(1),.huawei-v3 .app-nav .app-search-icon.clicked a:nth-child(2){opacity:1;transform:scale(1);transition:all .2s ease-in .2s;-webkit-transition:all .2s ease-in .2s;-moz-transition:all .2s ease-in .2s;-ms-transition:all .2s ease-in .2s;-o-transition:all .2s ease-in .2s;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1)}
+.huawei-v3 .app-nav .app-search-icon i{width:22px;height:22px;display:block;position:relative;transform:translate(5px,5px);-webkit-transform:translate(5px,5px);-moz-transform:translate(5px,5px);-ms-transform:translate(5px,5px);-o-transform:translate(5px,5px)}
+.huawei-v3 .app-nav .app-search-icon i::before{content:"";width:18px;height:18px;border:1px solid #1e1e1e;border-radius:50%;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;-webkit-transition:width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s,-webkit-transform .2s ease;transition:width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s,-webkit-transform .2s ease;transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s;transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s,-webkit-transform .2s ease;-webkit-transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s;-moz-transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s;-ms-transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s;-o-transition:transform .2s ease,width .2s ease .2s,height .2s ease .2s,border-radius .1s ease .3s,border-width .1s ease .3s}
+.huawei-v3 .app-nav .app-search-icon i::after{content:"";width:10px;height:10px;-webkit-box-sizing:border-box;box-sizing:border-box;border-bottom:1px solid #1e1e1e;position:absolute;transform:rotate(45deg) translate(16px,5px);-webkit-transform:rotate(45deg) translate(16px,5px);-moz-transform:rotate(45deg) translate(16px,5px);-ms-transform:rotate(45deg) translate(16px,5px);-o-transform:rotate(45deg) translate(16px,5px);-webkit-transform-origin:right top;transform-origin:right top;position:absolute;-webkit-transition:width .2s ease,height .2s ease,-webkit-transform .2s ease .2s;transition:width .2s ease,height .2s ease,-webkit-transform .2s ease .2s;transition:width .2s ease,height .2s ease,transform .2s ease .2s;transition:width .2s ease,height .2s ease,transform .2s ease .2s,-webkit-transform .2s ease .2s;-webkit-transition:width .2s ease,height .2s ease,transform .2s ease .2s;-moz-transition:width .2s ease,height .2s ease,transform .2s ease .2s;-ms-transition:width .2s ease,height .2s ease,transform .2s ease .2s;-o-transition:width .2s ease,height .2s ease,transform .2s ease .2s}
+.huawei-v3 .app-nav .app-search-icon.clicked i{width:18px;height:18px;transform:translate(7px,7px);-webkit-transform:translate(7px,7px);-moz-transform:translate(7px,7px);-ms-transform:translate(7px,7px);-o-transform:translate(7px,7px)}
+.huawei-v3 .app-nav .app-search-icon.clicked i::before{border-width:1px 0 0 0;width:24px;height:24px;-webkit-transform-origin:right top;transform-origin:right top;transform:rotate(-45deg) translate(-5px,-5px);-webkit-transform:rotate(-45deg) translate(-5px,-5px);-moz-transform:rotate(-45deg) translate(-5px,-5px);-ms-transform:rotate(-45deg) translate(-5px,-5px);-o-transform:rotate(-45deg) translate(-5px,-5px);border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;-webkit-transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,-webkit-transform .2s ease .2s;transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,-webkit-transform .2s ease .2s;transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s;transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s,-webkit-transform .2s ease .2s;-webkit-transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s;-moz-transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s;-ms-transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s;-o-transition:border-radius 1ms ease,border-width .1s ease,width .1s ease .1s,height .1s ease .1s,transform .2s ease .2s}
+.huawei-v3 .app-nav .app-search-icon.clicked i::after{width:24px;height:24px;transform:rotate(45deg) translate(1px,0);-webkit-transform:rotate(45deg) translate(1px,0);-moz-transform:rotate(45deg) translate(1px,0);-ms-transform:rotate(45deg) translate(1px,0);-o-transform:rotate(45deg) translate(1px,0);transition:all .2s ease .2s;-webkit-transition:all .2s ease .2s;-moz-transition:all .2s ease .2s;-ms-transition:all .2s ease .2s;-o-transition:all .2s ease .2s}
+.huawei-v3 .app-nav .app-logo{display:inline-block;margin-top:15px;position:absolute;top:0;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%)}
+.huawei-v3 .app-nav .app-logo a{width:136px;height:34px;background:url(images/v3-icon.svg) no-repeat;background-position:-29px -26px;display:inline-block}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap{position:static;-webkit-box-shadow:none;box-shadow:none;border-top:1px solid #999;margin-top:20px;background-color:#fff}
+.huawei-v3 .header-wrap .nav-wrap ul li .border-bot{border-bottom:1px solid #999}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt{padding:0;width:100%;height:auto;background:#fff}
+.huawei-v3 .header-wrap .nav-wrap .products-left{width:100%}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-wrap-bd.sloganHeight{padding-top:120px}
+.huawei-v3 .header-wrap .nav-wrap .products-left .slogan{position:absolute;top:-70px;left:0;width:100%;font-size:14px;color:#000;line-height:16px;height:64px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-wrap .close{display:none}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .products-wrap-bd{padding-top:0}
+.huawei-v3 .header-wrap .nav-wrap .products-left ul{display:inline-block}
+.huawei-v3 .header-wrap .nav-wrap .products-left li{width:47%;text-align:center;margin-right:0;float:left;padding:23px 0;margin-bottom:5px}
+.huawei-v3 .header-wrap .nav-wrap .products-left li:nth-child(even){float:right}
+.huawei-v3 .header-wrap .nav-wrap .products-left a{padding:0}
+.huawei-v3 .header-wrap .nav-wrap .products-left li a span{padding:0;height:45px;font-size:12px;color:#242728;letter-spacing:0;text-align:center;margin-top:25px;line-height:15px;overflow:hidden}
+.huawei-v3 .header-wrap .nav-wrap .products-left .view-all-wrap{display:none !important}
+.huawei-v3 .header-wrap .nav-wrap .products-left .app-view-all{border:1px solid #6f6f6f;border-radius:8px;padding:12px;text-align:center;font-size:14px;color:#242728;letter-spacing:1.65px}
+.huawei-v3 .header-wrap .nav-wrap .products-left .app-view-all::after{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-right .right-line{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt{position:static;padding-left:0;width:auto;-webkit-transform:none;transform:none;padding:0 20px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul{padding-top:0}
+.huawei-v3 .header-wrap .nav-wrap .products-right{margin-left:0;width:100%;margin-top:0;line-height:17px;padding-bottom:20px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt .products-h2{font-size:14px;color:#242728;line-height:17px;margin-bottom:27px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a{font-size:12px;color:#242728;letter-spacing:1.42px;padding:0;display:block}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a::after{right:2px;top:3px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt .bot-line{margin-top:13px;margin-bottom:14px;width:11px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li{margin-bottom:15px}
+.huawei-v3 .header-wrap .nav-wrap .products-left .app-view-wrap{padding:0 20px;display:block;margin:-5px 0 50px 0}
+.huawei-v3 .header-wrap .nav-wrap .products-cnt .only .products-left .app-view-wrap{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-cnt .only .products-right .products-right-cnt{display:none}
+.huawei-v3 .header-wrap .nav-wrap .products-cnt .only .products-left{float:none}
+.huawei-v3 .header-wrap .nav-wrap .products-cnt .only .products-left li{padding:0 25%;margin-bottom:0}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right{width:100%;margin-top:0;padding-bottom:50px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap{padding:0;text-align:center;height:auto}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap p{text-align:center;font-size:10px;color:#3c3c3c;letter-spacing:1.18px;line-height:16px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap{position:static;margin-top:20px;padding:0 20px}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only .products-right .only-wrap .but-wrap a{font-size:14px;color:#282828;letter-spacing:1.65px;padding:13px 0;width:100%;text-align:center}
+.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt .only-middle .products-right{max-width:none;min-width:inherit}
+.huawei-v3 #footer-v3{background:#f9f9f9}
+.huawei-v3 .footer-cnt{overflow:hidden;padding:0 12.5%;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}
+.huawei-v3 .footer-top{margin-top:0;border-top:0}
+.huawei-v3 .bread-crumb{padding:20px 0}
+.huawei-v3 .bread-crumb span{font-size:10px;color:#6f6f6f;line-height:15px;font-family:AkkuratPro-Bold}
+.huawei-v3 .bread-crumb a{font-size:10px;color:#6f6f6f;line-height:15px;font-family:AkkuratPro-Bold}
+.huawei-v3 .bread-crumb b{font-size:10px;color:#242728;text-decoration:underline;margin-left:10px;font-family:AkkuratPro-Bold}
+.huawei-v3 .bread-crumb b::before{content:"";display:inline-block;width:5px;height:9px;background:url("images/v3-icon.svg") no-repeat;background-position:-21px -144px;margin-right:10px}
+.huawei-v3 .footer-top .hp{margin-top:0;padding:15px 15px;border-bottom:1px solid #bcbcbc}
+.huawei-v3 .footer-top .hp a{font-size:14px;color:#000;font-family:"AkkuratPro-Regular"}
+.huawei-v3 .footer-top .hp span{font-size:14px;color:#000;font-family:"AkkuratPro-Regular"}
+.huawei-v3 .footer-top .hp i{width:8px;height:8px;border-right:1px solid #000;border-bottom:1px solid #000}
+.huawei-v3 .footer-top .cnt-wrap .l-box{float:none;width:100%;position:relative}
+.huawei-v3 .footer-top .cnt-wrap .l-box,.huawei-v3 .footer-top .cnt-wrap .follow-us,.huawei-v3 .footer-bottom{padding:27.5px 0}
+.huawei-v3 .footer-top .cnt-wrap .follow-us{padding-bottom:0}
+.huawei-v3 .footer-top .cnt-wrap .l-box .bot{display:block}
+.huawei-v3 .footer-top .cnt-wrap .list{float:none;width:100%}
+.huawei-v3 .footer-top .cnt-wrap .list li{float:none;margin-bottom:0;padding-left:20px}
+.huawei-v3 .footer-top .cnt-wrap .list li a{font-size:14px;line-height:33px}
+.huawei-v3 .footer-top .cnt-wrap .list ul{display:none;-webkit-transition:all .3s ease;transition:all .3s ease}
+.huawei-v3 .footer-top .cnt-wrap .list.active ul{display:block;margin-bottom:14px}
+.huawei-v3 .footer-top .cnt-wrap .list .list-h3{margin-bottom:14px;position:relative;font-size:14px}
+.huawei-v3 .footer-top .cnt-wrap .list:nth-last-child(2) .list-h3{margin-bottom:0}
+.huawei-v3 .footer-top .cnt-wrap .list .list-h3 .arrow-icon{width:7px;height:6px;display:inline-block;background:url(images/v3-icon.svg) no-repeat;background-position:-21px -96px;position:absolute;top:12px;right:22px}
+.huawei-v3 .footer-top .cnt-wrap .list.active .list-h3 .arrow-icon{background-position:-37px -97px}
+.huawei-v3 .footer-top .cnt-wrap .list:last-child{border-bottom:0}
+.huawei-v3 .footer-top .cnt-wrap .r-box{width:100%}
+.huawei-v3 .footer-top .cnt-wrap .r-box .follow-us,.huawei-v3 .footer-top .cnt-wrap .r-box .news-letter-signup{position:relative}
+.huawei-v3 .footer-top .cnt-wrap .follow-us .bot{display:block}
+.huawei-v3 .footer-top .cnt-wrap .follow-us .follow-us-h3{font-size:14px;line-height:15px;margin-bottom:14px}
+.huawei-v3 .footer-top .cnt-wrap .r-box .news-letter-signup .pc-p{display:none}
+.huawei-v3 .footer-top .cnt-wrap .r-box .news-letter-signup .app-p{display:block;margin-top:30px;margin-bottom:15px;font-family:"FrutigerNextLT-Regular";color:#3a3a3a}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup #subscribe_email{width:100%;border-radius:6px;font-size:14px;padding:0;height:40px;line-height:40px;margin-top:20px}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li{margin-bottom:27.5px}
+.huawei-v3 .footer-top .cnt-wrap .r-box .news-letter-signup{padding:21px 20px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .news-letter-signup-h3{font-size:14px;color:#242728;line-height:15px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input{padding:0;height:40px;padding-left:4%;line-height:40px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input::-webkit-input-placeholder{line-height:40px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input:-moz-placeholder{line-height:40px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input::-moz-placeholder{line-height:40px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup input:-ms-input-placeholder{line-height:40px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .newsletter-holder{margin-top:18px;position:relative}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .check-box{margin-top:18px}
+.huawei-v3 .footer-top .cnt-wrap .news-letter-signup .tips{position:absolute;top:34px;left:0;margin-top:0}
+.huawei-v3 .footer-top .cnt-wrap .list li .font-icon::after{display:none}
+.huawei-v3 .footer-bottom{border-top:0;margin-top:0}
+.huawei-v3 .footer-bottom .country{float:none;text-align:left}
+.huawei-v3 .footer-bottom .country .country-name{font-family:"AkkuratPro-Bold";font-size:10px;color:#adadad}
+.huawei-v3 .footer-bottom .tnc-holder{width:100%;padding-top:7px}
+.huawei-v3 .footer-bottom .tnc-holder li{margin-right:0;width:33.3%;margin-bottom:10px}
+.huawei-v3 .footer-bottom .tnc-holder li:last-child{margin-right:0}
+.huawei-v3 .footer-bottom .tnc-holder li a{padding-right:10px;font-size:10px;color:#adadad}
+.huawei-v3 .footer-bottom .tnc-holder li a:hover{color:#adadad;text-decoration:none}
+.huawei-v3 .footer-bottom .tnc-holder li:last-child a{border-right:0;padding-right:0}
+.huawei-v3 .footer-bottom .copyright-holder{margin-top:10px;color:#585858}
+.huawei-v3 .footer-bottom .bot{display:none}
+.content--remark{width:375px}
+.content--remark .remark-text{padding:20px}
+}
+@media(max-width:320px){.huawei-v3 .footer-bottom .tnc-holder li a{padding-right:0}
+}
+#header-v3 .header-gblnav{text-align:center;overflow:hidden;position:relative;width:100%;background-color:#fff}
+.header-gblnav-default{height:28px;background-color:#222;color:#fff;padding:0 5%}
+.header-gblnav-dfbox,.header-gblnav-cntbox{max-width:1350px;margin:0 auto}
+.header-gblnav-dflink{float:left;height:28px;line-height:28px;color:#fff}
+.header-gblnav-dftext{float:left}
+.header-gblnav-dficon{display:inline-block;width:28px;height:28px;background:url(images/v3-icon.svg)no-repeat -430px -143px}
+.header-gblnav-dflink-active .header-gblnav-dficon{background-position:-410px -141px}
+.header-gblnav-container{background-color:#fff;color:#282828;text-align:left;-webkit-box-shadow:2px 0 10px rgba(0,0,0,0.2);box-shadow:2px 0 10px rgba(0,0,0,0.2);position:relative;z-index:9;display:none;padding:0 5%;margin-bottom:3px}
+.header-gblnav-cntbox{width:100%;margin:0 auto}
+.header-gblnav-cntul{overflow:hidden;padding:32px 0 32px}
+.header-gblnav-cntli{float:left;margin-right:4%;width:20%}
+.header-gblnav-cntli:last-child{margin-right:0}
+.header-gblnav-cntli-link{display:block;width:100%;height:100%;overflow:hidden}
+.header-gblnav-cntli-title{display:block;height:30px;line-height:19px;color:#f66f6a;font-weight:bold;font-size:14px;margin-bottom:5px;overflow:hidden}
+.header-gblnav-cntli-title b{float:left;height:30px;line-height:30px;font-family:"AkkuratPro-Bold"}
+.header-gblnav-cntli-title i{margin-left:2px;margin-top:9px;float:left;width:15px;height:15px;background:url(images/v3-icon.svg)no-repeat -394px -150px}
+.header-gblnav-cntli-title:hover i{-webkit-animation:navTitleHover .5s;animation:navTitleHover .5s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@keyframes navTitleHover{from{margin-left:2px}
+to{margin-left:15px}
+}
+@-webkit-keyframes navTitleHover{from{margin-left:2px}
+to{margin-left:15px}
+}
+.header-gblnav-cntli-cnt{display:block;width:100%;line-height:20px;font-size:14px;word-break:break-word}
+.header-gblnav-cntli-active .header-gblnav-cntli-title{color:#282828}
+.header-gblnav-cntli-active .header-gblnav-cntli-title i{background:0}
+@media screen and (max-width:1200px){.header-gblnav-cntbox{width:100%;height:100%}
+.header-gblnav-cntli{margin-right:60px}
+}
+@media screen and (max-width:1023px){.header-gblnav-default{position:fixed;bottom:0;height:40px;width:100%;padding:0;z-index:10;display:none}
+.header-gblnav-dfbox{padding:0 5%}
+.header-gblnav-dflink{height:40px;line-height:40px}
+.header-gblnav-dficon{margin-top:6px}
+.header-gblnav-container{position:fixed;display:none;-webkit-box-shadow:none;box-shadow:none;width:100%;padding:0;z-index:154;overflow-y:auto}
+.header-gblnav-cntbox{width:100%}
+.header-gblnav-cntul{padding:50px 0;height:100%}
+.header-gblnav-cntli{clear:both;padding:10px 17px 10px 24px;border-bottom:1px solid #d4d4d4;-webkit-box-shadow:none;box-shadow:none;width:100%;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.header-gblnav-cntli-title i{float:right}
+.header-gblnav-dficon{background:url(images/v3-icon.svg)no-repeat -410px -140px}
+.header-gblnav-dflink-active .header-gblnav-dficon{background-position:-430px -142px}
+}
+#search_area{margin:0 auto;background-color:#f9f9f9;position:absolute;left:0;top:65px;width:100%;height:100vh;display:none}
+#search_area .search_result{max-width:1360px;margin:0 auto;overflow:hidden;position:relative;padding:0 30px}
+@media(max-width:1348px){#search_area .search_result{padding:0 20px;width:980px}
+}
+#search_area .search_result .input_content{width:732px;margin:230px auto 0}
+#search_area .search_result .input_content .input_box{border-bottom:1px solid #242728;position:relative}
+#search_area .search_result .input_content .input_box input{display:block;width:90%;height:40px;margin:0 auto;border:0;background:0;font-size:15px;color:#242728}
+#search_area .search_result .input_content .input_box .glass{width:17px;height:17px;position:absolute;left:0;top:12px;background:url('images/v3-icon.svg') no-repeat -283px -247px}
+#search_area .search_result .input_content .input_box .arrow{width:40px;height:40px;position:absolute;right:0;top:0}
+#search_area .search_result .input_content .input_box .arrow a{width:25px;height:25px;position:absolute;background:url('images/v3-icon.svg') no-repeat -248px -242px;top:7px;left:7px}
+#search_area .search_result .input_content .input_box .arrow a.icon_disabled{background:url('images/v3-icon.svg') no-repeat -209px -242px;cursor:default}
+#search_area .search_result .input_content .hot_word p{font-size:13px;color:#9d9d9d;padding:33px 0 23px 0;text-align:left}
+#search_area .search_result .input_content .hot_word ul li{padding-bottom:40px;width:360px}
+#search_area .search_result .input_content .hot_word ul li a{display:block;position:relative}
+#search_area .search_result .input_content .hot_word ul li a::after{display:none}
+#search_area .search_result .input_content .hot_word ul li a i{position:absolute;width:17px;height:17px;left:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);background:url('images/v3-icon.svg') no-repeat -317px -246px}
+#search_area .search_result .input_content .hot_word ul li a span{font-size:15px;color:#6f6f6f;display:inline-block;padding-left:30px}
+#search_area .search_result .input_content .hot_word ul li a span:hover{color:#ce1d2c}
+#search_area .search_result .input_content .hot_word ul{line-height:normal;height:auto}
+#search_area .search_result .input_content .hot_word ul li{float:none}
+#search_area .search_result .input_content .hot_word ul li a{display:block;width:auto;height:auto;background:0;text-align:left}
+#search_area .suggested_result{display:none}
+#search_area .suggested_result p{font-size:13px;color:#6f6f6f;padding:33px 0 3px;text-align:left}
+#search_area .suggested_result .associated_list{height:300px;overflow-y:auto}
+#search_area .suggested_result .associated_list::-webkit-scrollbar{width:10px}
+#search_area .suggested_result .associated_list::-webkit-scrollbar-thumb{border-radius:5px;background:rgba(187,176,176,0.5)}
+#search_area .suggested_result .associated_list .associated_key{width:710px;padding:20px 0;border-bottom:1px solid #e0e0e0;text-align:left}
+#search_area .suggested_result .associated_list .associated_key a{position:relative}
+#search_area .suggested_result .associated_list .associated_key a:hover span{color:#ce1d2c}
+#search_area .suggested_result .associated_list .associated_key a:hover span strong{color:#ce1d2c}
+#search_area .suggested_result .associated_list li.associated_key.color-selected a span{color:#ce1d2c}
+#search_area .suggested_result .associated_list li.associated_key.color-selected a span strong{color:#ce1d2c}
+#search_area .suggested_result .associated_list .associated_key a .icon_search{width:17px;height:17px;float:left;background:url('images/v3-icon.svg') no-repeat -317px -246px}
+#search_area .suggested_result .associated_list .associated_key a span{font-size:15px;color:#ccc;padding-left:20px}
+#search_area .suggested_result .associated_list .associated_key a span strong{color:#242728;font-weight:700}
+#search_area .search_result .input_content .suggested_result ul{line-height:normal}
+#search_area .search_result .input_content .suggested_result li{float:none}
+#search_area .search_result .input_content .suggested_result li a{display:inline-block;width:auto;height:auto;background:0;text-align:left}
+#search_area .search_result .input_content .suggested_result ul li a::after{display:none}
+#search_area .icon_close{position:absolute;top:10px;right:10px;cursor:pointer}
+#search_area .icon_close a{width:32px;height:32px}
+#search_area .search_toast{position:fixed;width:100%;height:100%;top:0;left:0;z-index:9999;display:none}
+#search_area .search_toast .toast_text{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:14px;max-width:280px;color:#000;background-color:#fff;border-radius:12px;text-align:center;padding:15px 60px;line-height:16px;border:1px solid #ccc}
+.ban_scroll{overflow-y:scroll !important}
+.ban_scroll body{overflow:hidden !important;height:100vh}
+@media(min-width:1350px){#search_area .search_result .input_content{width:732px;margin:230px auto 0}
+}
+@media(max-width:1100px){#search_area .icon_close{right:50px}
+}
+@media(min-width:1025px){#search_area .search_result .input_content{margin:130px auto 0}
+#search_area .suggested_result ul.associated_list{height:300px}
+}
+@media(max-width:1023px){#search_area{width:100%;z-index:99;top:0;overflow-y:auto}
+#search_area .search_result{width:100%;padding:0 10%;-webkit-box-sizing:border-box;box-sizing:border-box;padding-bottom:100px}
+#search_area .search_result .input_content{width:100%;margin-top:55px}
+#search_area .search_result .input_content .input_box input{width:80%;font-size:12px;height:30px}
+#search_area .search_result .input_content .input_box .glass{width:13px;height:13px;background:url('images/v3-icon.svg') no-repeat -289px -285px;top:8px}
+#search_area .search_result .input_content .input_box .arrow{height:30px;width:30px}
+#search_area .search_result .input_content .input_box .arrow a{width:15px;height:15px;background:url('images/v3-icon.svg') no-repeat -254px -284px}
+#search_area .search_result .input_content .input_box .arrow a.icon_disabled{background:url('images/v3-icon.svg') no-repeat -212px -284px}
+#search_area .search_result .input_content .hot_word p{font-size:10px;padding:19px 0 0 0}
+#search_area .search_result .input_content .hot_word ul{padding-top:14px}
+#search_area .search_result .input_content .hot_word ul li{padding-bottom:32px;margin-bottom:0;width:100%}
+#search_area .search_result .input_content .hot_word ul li a{padding:0}
+#search_area .search_result .input_content .hot_word ul li a i{width:13px;height:13px;background:url('images/v3-icon.svg') no-repeat -324px -284px}
+#search_area .search_result .input_content .hot_word ul li a span{font-size:12px}
+#search_area .suggested_result p{font-size:10px;padding:20px 0 0 0}
+#search_area .suggested_result ul.associated_list{padding-top:0;height:235px}
+#search_area .suggested_result .associated_list::-webkit-scrollbar{width:5px}
+#search_area .suggested_result .associated_list::-webkit-scrollbar-thumb{border-radius:3px}
+#search_area .suggested_result .associated_list .associated_key{width:96%;padding:15px 0;margin-bottom:0}
+#search_area .suggested_result .associated_list .associated_key a{padding:0}
+#search_area .suggested_result .associated_list .associated_key a .icon_search{width:13px;height:13px;background:url('images/v3-icon.svg') no-repeat -325px -285px;margin-top:2px}
+#search_area .suggested_result .associated_list .associated_key a span{font-size:12px;padding-left:15px}
+#search_area .icon_close{width:20px;height:20px;right:20px}
+#search_area .search_toast .toast_text{width:70%;padding:15px 30px}
+}
+.conv3_global_selector .select span{text-overflow:ellipsis;white-space:nowrap}
+@media screen and (min-width:768px){.select{float:left;width:180px;height:39px;margin-right:42px;line-height:30px;border-bottom:#c0baba solid 1px;position:relative}
+.select span{display:block;height:100%;line-height:40px;padding:0 15px;cursor:pointer;overflow:hidden;font-size:16px}
+.select span:after{display:block;content:"";position:absolute;top:18px;right:0;width:12px;height:7px;background:url('../images/common/img_con_v27_icon_sprite_svg.svg') -32px 0 no-repeat;overflow:hidden;-webkit-transition:.5s all ease;transition:.5s all ease}
+.conv3_global_selector .select span.active:after{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.conv3_global_selector .select span:hover:after{opacity:.5}
+.select ol{display:none;position:absolute;top:40px;left:0;z-index:500;width:100%;overflow:hidden;background-color:#efefef}
+.select ol li:after{display:block;content:'';position:absolute;top:14px;right:10px;width:14px;height:14px;background:url('../images/common/img_con_v27_icon_sprite_svg.svg') -45px 0 no-repeat;overflow:hidden}
+.select ol li{position:relative;display:block;line-height:20px;padding:10px 10px;cursor:pointer;padding-right:25px}
+}
+@media screen and (max-width:767px){.select span:after{display:block;content:"";position:absolute;top:18px;right:0;width:12px;height:7px;background:url('../images/common/img_con_v27_icon_sprite_svg.svg') -32px 0 no-repeat;overflow:hidden;-webkit-transition:.5s all ease;transition:.5s all ease}
+.conv3_global_selector .select span.active:after{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.conv3_global_selector .select span:hover:after{opacity:.5}
+.select span{display:block;height:40px;margin-top:10px;padding:0 10px;line-height:42px;border-bottom:#c0baba solid 1px;position:relative;overflow:hidden;cursor:pointer;text-overflow:ellipsis;white-space:nowrap;padding-right:20px !important}
+.select ol{display:none;margin:0 auto;line-height:28px;font-size:14px;background-color:#efefef}
+.select ol li{position:relative;padding:0 10px;line-height:44px;cursor:pointer}
+.select ol li:after{display:block;content:'';position:absolute;top:14px;right:10px;width:14px;height:14px;background:url('../images/common/img_con_v27_icon_sprite_svg.svg') -45px 0 no-repeat;overflow:hidden}
+}
+.huawei-v3 .scrolled{margin-top:0;overflow:hidden}
+.huawei-v3 .scrolled .new-list-nav-wrap{top:0}
+.second-navigation{background:#f5f3f3;height:65px;position:fixed;width:100%;top:65px;left:0;z-index:1;display:none}
+.second-navigation .second-nav-wrap .second-nav{width:90%;margin:0 auto;max-width:1350px}
+.second-navigation .second-nav-wrap .second-nav .second-title{float:left;height:64px;line-height:64px;font-family:"AkkuratPro-Bold";font-size:24px;color:#242728}
+.second-navigation .second-nav-wrap .second-nav .second-ul{float:right;height:64px;line-height:64px}
+.second-navigation .second-nav-wrap .second-nav .second-ul li{float:left;margin-left:16px}
+.second-navigation .second-nav-wrap .second-nav .second-ul li:first-child{margin-left:0}
+.second-navigation .second-nav-wrap .second-nav .second-ul li a{font-size:14px;color:#858383;letter-spacing:0;display:block}
+.second-navigation .second-nav-wrap .second-nav .second-ul li .current{color:#d20a2c !important}
+.second-navigation .second-nav-wrap .second-nav .second-ul li a:hover{color:#323232}
+.second-navigation .second-nav-wrap .second-nav .second-ul li a.current{cursor:default}
+.second-navigation .second-nav-wrap .second-nav .second-ul li.active a{cursor:default}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap{float:right;margin-top:11px;margin-left:35px}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap a{display:inline-block;height:42px;line-height:42px;padding:0 20px;background:#d20a2c;font-size:16px;border-radius:8px;color:#fff}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap .plp-item-productbtn{display:inline-block;height:42px;line-height:42px;padding:0 20px;background:#d20a2c;font-size:16px;border-radius:8px;color:#fff}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap a:hover{background:#ee4755}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap .plp-item-productbtn:hover{background:#ad0824}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap .plp-item-productbtn:focus{-webkit-box-shadow:0 0 0 .2rem rgba(210,10,44,.5);box-shadow:0 0 0 .2rem rgba(210,10,44,.5)}
+.second-navigation-buy .second-nav-wrap .second-nav span{float:left;height:64px;line-height:64px;font-family:"AkkuratPro-Bold";font-size:24px;color:#242728}
+@media(max-width:1023px){.second-navigation{background:#f2f2f2;height:44px}
+.second-navigation .second-mask-wrap{position:fixed;top:0;left:0;width:100%;height:100%;opacity:.5;background:#242728;display:none}
+.second-navigation .second-nav-wrap{height:44px}
+.second-navigation .second-nav-wrap .second-nav{position:relative;width:auto;border-bottom:0;height:44px;background:#f2f2f2}
+.second-navigation .second-nav-wrap .second-nav .new-app-nav{width:90%;margin:0 auto}
+.second-navigation .second-nav-wrap .second-nav .second-title{height:auto;line-height:18px;font-size:16px;color:#242728;display:inline-block;position:absolute;max-width:120px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:5%}
+.second-navigation .second-nav-wrap .second-nav .twoHeight{line-height:14px;font-size:12px}
+.second-navigation .second-nav-wrap .second-nav .current::after{background-position:-37px -97px}
+.second-navigation .second-nav-wrap .second-nav .second-ul{display:none;float:none;height:auto;line-height:normal;position:absolute;top:44px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:70%;padding:30px 15% 10px;background:#fff}
+.second-navigation .second-nav-wrap .second-nav .second-ul li{float:none;width:100%;margin-left:0;padding-bottom:10px;border-bottom:1px solid #6f6f6f;margin-bottom:20px}
+.second-navigation .second-nav-wrap .second-nav .second-ul{-webkit-box-sizing:initial !important;box-sizing:initial !important}
+.second-navigation .second-nav-wrap .second-nav .second-ul li a{line-height:17px;font-size:14px}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap{position:absolute;top:50%;right:5%;-webkit-transform:translateY(-50%);transform:translateY(-50%);margin-top:inherit;margin-left:0}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap a{height:32px;line-height:32px;padding:0 15px;font-size:14px}
+.second-navigation .second-nav-wrap .second-nav .bnt-wrap .plp-item-productbtn{height:32px;line-height:32px;padding:0 15px;font-size:14px}
+.second-navigation .second-nav-wrap .second-nav .icon-app{display:inline-block;width:21px;height:11px;background:url("images/v3-icon.svg") no-repeat;background-position:-347px -488px;position:absolute;top:50%;right:5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);margin-top:-5px}
+.second-navigation .second-nav-wrap .second-nav .icon-app.active{background-position:-309px -488px}
+.second-navigation-buy .second-nav-wrap .second-nav .icon-app{display:inline-block;width:21px;height:11px;background:url("images/v3-icon.svg") no-repeat;background-position:-347px -488px;position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);margin-top:-5px}
+.second-navigation-buy .second-nav-wrap .second-nav .icon-app.active{background-position:-309px -488px}
+.second-navigation .second-nav-wrap .second-nav .second-app-nav{width:90%;margin:0 auto;padding:0 5%}
+.second-navigation-buy .second-nav-wrap .second-nav span{height:auto;line-height:18px;font-size:16px;color:#242728;display:inline-block;position:absolute;max-width:120px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:5%}
+.second-navigation{background:#f2f2f2;height:auto}
+.second-navigation .second-nav-wrap{height:auto}
+.second-navigation .second-nav-wrap .second-nav.threeHeight{height:60px}
+.second-navigation .second-nav-wrap .second-nav.threeHeight .second-ul{top:60px}
+}
+.second-navigation,.new-list-nav-wrap{position:relative !important;top:inherit !important;left:inherit !important;text-align:left !important}
+.second-navigation .second-mask-wrap,.new-list-navigation .new-mask-wrap{position:absolute !important;height:100vh !important;z-index:auto !important;top:inherit !important}
+.second-navigation-support .tit{display:none}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul li a:hover,.second-navigation-support .second-nav-wrap .second-nav .second-ul li.current a{color:#db1530}
+@media screen and (min-width:768px){.second-navigation-support .second-nav,.second-navigation-support .second-app-nav,.second-navigation.second-navigation-support .second-nav-wrap .second-nav .second-ul{height:70px;line-height:70px}
+.second-nav-wrap .second-nav .logo{margin-top:-4px}
+.second-navigation-support .second-app-nav{float:left;width:109px}
+.second-navigation.second-navigation-support .second-nav-wrap .second-nav .second-ul{display:block;float:left;overflow:hidden}
+.second-navigation-support .second-nav ul li{float:left;margin-right:25px;position:relative;cursor:pointer}
+.second-navigation-support .second-nav ul li a{display:block;-webkit-transition:all 300ms;transition:all 300ms;padding-bottom:4px;border-bottom:solid 2px transparent}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul li a:hover{border-bottom:solid 2px #db1530}
+.second-navigation-support .second-nav ul li:nth-last-of-type(1) a{margin-right:0}
+.second-navigation-support .second-nav ul li i{display:block;position:absolute;bottom:27px;left:0;width:100%;height:2px;-webkit-transition:300ms all ease;transition:300ms all ease}
+.second-navigation-support .second-nav ul li:hover i{background-color:#db1530}
+.second-navigation-support .second-nav .icon_menu{display:none}
+.second-navigation-support .second-nav .icon_search{position:absolute;top:0;right:0;width:60px;height:70px;cursor:pointer}
+.second-navigation-support .second-nav .icon_search i{display:block;position:absolute;top:50%;right:0;width:20px;height:20px;background:url('../images/common/img_con_v27_icon_sprite_svg.svg') -172px -89px no-repeat;overflow:hidden;margin:-9.5px 0 0 -7.5px}
+.second-navigation-support .second-nav .side_nav{position:absolute;top:0;right:27px;line-height:70px}
+.second-navigation-support .second-nav .side_nav a{float:none;margin:0;font-size:12px}
+.second-navigation-support .second-nav .side_nav span{margin:0 3px}
+.conv3_nwev_nav .second-nav .side_nav{right:0}
+}
+@media screen and (min-width:768px) and (max-width:870px){.second-navigation-support .second-nav{left:19%;width:81%;letter-spacing:0}
+.second-navigation-support .second-nav .side_nav a{width:100px}
+}
+@media screen and (max-width:767px){.second-navigation-support .second-nav-wrap .second-nav .second-app-nav{position:relative;height:auto;background:#fff}
+.second-navigation-support .second-nav ul li a{letter-spacing:0}
+.second-navigation-support .tit{display:block;line-height:40px;cursor:pointer;background:#fff;text-align:center;font-size:18px;letter-spacing:4px}
+.second-navigation-support .second-app-nav{float:none}
+.second-navigation-support .second-nav-wrap .second-nav .logo{margin:10px 0 0 10px}
+.second-navigation-support .tit span{position:relative}
+.second-navigation-support .tit span:after{display:block;position:absolute;top:8px;right:-15px;content:'';width:12px;height:7px;background:url('public-v3/images/img_con_v27_icon_sprite_svg.svg') -32px 0 no-repeat;-webkit-transition:all 1s ease;transition:all 1s ease}
+.second-navigation-support .tit.active span:after{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul{padding:0 10px;width:calc(100% - 20px);text-align:center;top:inherit;position:relative}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul li{margin-bottom:0;border-bottom:#ccc solid 1px;padding-bottom:0}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul li a{line-height:30px;font-size:12px;color:#000}
+.second-navigation-support .second-nav-wrap .second-nav{height:auto}
+.second-navigation-support .second-nav-wrap .second-nav .second-ul li:nth-last-of-type(1){border-bottom-style:none}
+}
+@media(max-width:768px){.a-letter>a,.a-letter .page-top>a,.a-letter .page-bottom>a{word-break:break-all;word-wrap:break-word}
+}
+.icon_public{display:inline-block;vertical-align:middle;width:40px;height:25px;margin-right:2px;text-indent:-9999px;background:url('public-v3/images/img_con_v27_base_public.png') no-repeat}
+#Features li h2{font-family:"AkkuratPro-Bold" !important}
+.support_update .update_text p,.support_update p{word-break:break-all;word-wrap:break-word}
+.product-detail-container{padding-top:0 !important}
+.s-wrapplayskill .s-bigTitle{margin-top:0 !important}
+.s-wrapplayskill-wrap{padding-top:0 !important}
+.conv3_wrap .support-product-float{top:0 !important;z-index:101}
+.support-search-float{top:0 !important}
+.huawei-v3 .support-softtool-float{top:0 !important;z-index:101}
+@media screen and (max-width:767px){.support-product-float,.support-softtool-float{top:0 !important}
+.s-wrapplayskill .s-bigTitle{margin-top:0 !important}
+.huawei-v3 .conv3_content .conv3_myhotline.conv3_hotline_content{width:calc(100% - 30px)}
+.huawei-v3 .conv3_content .conv3_title_group{width:calc(100% - 30px)}
+.huawei-v3 .conv3_sup_servcenter_wrap .conv3_content{margin-top:0 !important}
+.support-search-float{top:0 !important}
+.conv3_global_selector .select span{margin-top:0 !important}
+}
+.huawei-v3 .header-wrap .logo-wrap .logo{top:16px}
+@media(max-width:1348px){.huawei-v3 .header-wrap .logo-wrap .logo{top:12px}
+}
+@media screen and (min-width:1024px){.huawei-v3 .header-wrap .logo-wrap{float:left}
+.huawei-v3 .header-wrap .nav-wrap{float:right;width:calc(100% - 283px)}
+.second-navigation .second-nav-wrap .second-nav{max-width:inherit}
+.huawei-v3 .huawei-cookie-cnt{max-width:inherit}
+.huawei-v3 .huawei-ie-cnt{max-width:inherit}
+.header-gblnav-dfbox,.header-gblnav-cntbox{max-width:inherit}
+.huawei-v3 .header-wrap .right-box{float:right}
+.huawei-v3 .header-wrap .right-box .login .login-wrap{left:-79px;top:43px;z-index:1}
+}
+@media screen and (min-width:1024px) and (max-width:1680px){.huawei-v3 .header-wrap .nav-wrap{float:right;width:calc(100% - 260px)}
+}
+@media screen and (min-width:1024px) and (max-width:1348px){.huawei-v3 .header-wrap .nav-wrap{float:right;width:calc(100% - 150px)}
+}
+@media screen and (min-width:1024px) and (max-width:1200px){.huawei-v3 .header-wrap .nav-wrap{float:right;width:calc(100% - 80px)}
+}
+.huawei-v3 .footer-top .cnt-wrap .list .mobile-show{display:none}
+@media screen and (max-width:767px){.huawei-v3 .footer-top .cnt-wrap .list .mobile-show{display:block}
+}
+body.huawei-v3{padding-top:0}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a[href^='http']:not([href*='huawei.com']):after{content:"";display:inline-block;width:12px;height:12px;margin-left:5px;background:url("images/external-link.svg");vertical-align:middle;background-size:cover;margin-top:0}
+@media(max-width:1680px){.huawei-v3 .header-wrap .nav-wrap ul li .products-cnt{max-width:1200px}
+#search_area .search_result{max-width:1200px}
+}
+@media(max-width:1023px){.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a{display:inline-block}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a::after{position:absolute;margin-left:0;right:-12px;top:7px}
+.huawei-v3 .header-wrap .nav-wrap .products-right .products-right-cnt ul li a[href^='http']:not([href*='huawei.com']):after{margin-left:0;right:-15px;top:2px}
+}
+.huawei-v3 .spec_declaration_outer{padding-bottom:70px}
+#search_area .search_result .input_content .suggested_result ul::-webkit-scrollbar-track{background-color:#fff;border-radius:10px}
+.icon-red-mapwrap-anchor{display:block;height:33px;width:20px;font-size:10px;line-height:19px;background:url(../images/common/img_con_v27_icon_red_map.png) no-repeat;cursor:pointer;background-size:20px;color:#fff}
+.icon-blue-mapwrap-anchor{display:block;height:33px;width:20px;font-size:10px;line-height:19px;background:url('../images/common/img_con_v27_icon_blue_map.png') no-repeat;cursor:pointer;background-size:20px;color:#fff}
+.huawei-v3 .header-wrap .nav-wrap .app-track-order{display:none}
+.huawei-v3 .header-wrap .nav-wrap .track-order{float:left;height:65px;margin-top:-12px;line-height:65px;margin-right:35px}
+.huawei-v3 .header-wrap .nav-wrap .track-order a{font-size:16px;color:#5c5a5b;letter-spacing:0;display:block}
+.huawei-v3 .header-wrap .nav-wrap .track-order a:hover{color:#000}
+@media(max-width:1348px){.huawei-v3 .header-wrap .nav-wrap .track-order{margin-right:20px}
+}
+@media(max-width:1023px){.huawei-v3 .header-wrap .nav-wrap .track-order{display:none}
+.huawei-v3 .header-wrap .nav-wrap .app-track-order{display:block;padding:10px 0 40px}
+.huawei-v3 .header-wrap .nav-wrap .app-track-order a{font-size:14px;color:#242728;letter-spacing:1.65px;text-align:center;display:block}
+}
+.loading_mask{opacity:.3;background-color:#000;Z-INDEX:9999;position:fixed;left:0;right:0;top:0;bottom:0;display:none}
+.loading_mask img{position:fixed;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);top:50%}
+.HW-C-POP{z-index:100 !important}
+html[lang="en-MY"] .huawei-v3 .header-wrap .right-box .login{display:none}
+.conv3_sup_model_wrap{padding-top:0 !important}
+.conv3_wrap:not([role=main]){margin-top:0 !important}
+.conv3_wrap.conv3_menu_query_wrap{padding-top:45px !important}
+.huawei-v3 #header-v3.header-cn .header-wrap .right-box{margin-left:15px}
+@media(max-width:1250px) and (min-width:1024px){.header-cn .header-wrap .nav-wrap ul li a{font-size:12px !important}
+}
+.header-cn .header-wrap .nav-wrap ul li .list-images .products-left{width:100%}
+@media(min-width:1681px){.header-cn .header-wrap .nav-wrap ul li .list-images{max-width:1360px}
+}
+@media(max-width:1500px) and (min-width:1348px){.header-cn .header-wrap .nav-wrap{width:calc(100% - 220px)}
+}
+@media(max-width:1680px) and (min-width:1024px){.header-cn .header-wrap .nav-wrap ul li .list-images{max-width:1200px}
+.header-cn .header-wrap .nav-wrap ul li{margin-right:19px}
+}
+.header-cn .header-wrap .nav-wrap ul li .list-images ul{-webkit-box-pack:normal;-ms-flex-pack:normal;justify-content:normal}
+.header-cn .header-wrap .nav-wrap ul li .list-images li{width:calc((100% - 6*15px) / 7);margin:30px 15px 10px 0;height:234px}
+.header-cn .header-wrap .nav-wrap ul li .list-images li:nth-last-of-type{margin:0 0 10px 0}
+.header-cn .header-wrap .nav-wrap ul li .list-images li a{background:transparent;height:100%}
+.header-cn .header-wrap .nav-wrap ul li .list-images li a:hover{background:#ebebeb}
+.header-cn .header-wrap .nav-wrap ul li .list-images li a img{max-width:100%}
+.header-cn .header-wrap .nav-wrap ul li .list-images li a span{display:block;text-align:center;line-height:26px;color:#6f6f6f;font-size:18px;margin-top:20px}
+.header-cn .header-wrap .nav-wrap ul li .list-images li a span:hover{color:#000}
+@media(max-width:1023px) and (min-width:768px){.header-cn .header-wrap .nav-wrap ul li .list-images li{width:calc((100% - 3*15px) / 4);margin:0 15px 0 0;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li span{margin-bottom:20px;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li:nth-of-type(4n){margin:0}
+}
+@media(max-width:767px) and (min-width:480px){.header-cn .header-wrap .nav-wrap ul li .list-images li{width:calc((100% - 2*15px) / 3);margin:0 15px 0 0;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li span{margin-bottom:20px;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li:nth-of-type(3n){margin:0}
+}
+@media(max-width:479px){.header-cn .header-wrap .nav-wrap ul li .list-images li{width:calc((100% - 15px) / 2);margin:0 15px 0 0;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li span{margin-bottom:20px;height:auto}
+.header-cn .header-wrap .nav-wrap ul li .list-images li:nth-of-type(2n){margin:0}
+}
+@media(max-width:1023px){.huawei-v3 .header-cn .header-wrap .right-box .login{float:none}
+.huawei-v3 #header-v3.header-cn .header-wrap .right-box{margin-left:0}
+}
+.footer-cn .footer-nav-list{width:20% !important}
+.footer-cn .footer-cn-rmd{margin-top:23px}
+.huawei-v3 #footer-v3.footer-cn{float:left;width:100%}
+.footer-cn .footer-top .cnt-wrap .l-box{width:80%}
+.footer-cn .footer-top .cnt-wrap .r-box{width:auto;max-width:calc(20% - 1px);border-left:1px solid #d0d0d0;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:10px;text-align:left;padding-left:50px}
+.footer-cn .footer-top .cnt-wrap .list .list-h3{font-weight:bolder}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box p{font-family:"AkkuratPro-Bold";font-size:14px;color:#242728;line-height:30px;margin-bottom:5px}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box{margin-bottom:15px}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a{display:inline-block;width:25px;height:25px;margin-right:15px;position:relative}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a.huafen{background:url('images/icon-huafen.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a.wechat{background:url('images/icon-wechat.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a.sina{background:url('images/icon-sina.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a.huafen:hover{background:url('images/icon-huafen-hover.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .attention-huawei-club a.wechat:hover{background:url('images/icon-wechat-hover.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .focus-on-us a.wechat:hover{background:url('images/icon-wechat-hover.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a.sina:hover{background:url('images/icon-sina-hover.svg') no-repeat}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .attention-huawei-club a.wechat:hover:after{opacity:1;content:"";position:absolute;background:url(images/img_cn_ewm.png);width:80px;height:80px;top:-90px;left:0;border:solid 1px #999;-webkit-box-shadow:0 0 4px rgba(0,0,0,.5);box-shadow:0 0 4px rgba(0,0,0,.5);background-position:-217px -188px}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .focus-on-us a.wechat:hover:after{opacity:1;content:"";position:absolute;background:url(images/img_cn_ewm.png);width:108px;height:108px;top:-110px;left:0;border:solid 1px #999;-webkit-box-shadow:0 0 4px rgba(0,0,0,.5);box-shadow:0 0 4px rgba(0,0,0,.5)}
+.footer-cn .attention-huawei-club a.wechat:hover:after{display:block !important}
+.footer-cn .focus-on-us a.wechat:hover:after{display:block !important}
+@media(min-width:1024px){.footer-cn .footer-cn-rmd{height:23px;position:relative}
+.footer-cn .able-item-service.able-item-service .tit{float:left}
+.footer-cn .able-item-service .tel{float:left}
+.footer-cn .able-item-service .able-item-server-time{float:left}
+.footer-cn .able-items{position:absolute;right:0;margin-top:0}
+.footer-cn .able-item{float:left;height:23px}
+}
+.footer-cn .footer-top{margin-top:10px}
+.footer-cn .footer-cn-rmd{height:23px;position:relative}
+.footer-cn .able-item-service.able-item-service .tit{font-weight:bolder;margin-right:15px;padding-left:41px;cursor:default;font-family:"AkkuratPro-Bold";font-size:14px;color:#242728;line-height:30px}
+.footer-cn .able-item i{background:url(../images/common/img_con_v27_icon_sprite_svg.svg) no-repeat;display:block;position:absolute;left:0;top:0}
+.footer-cn .able-item-service i{width:31px;height:31px;top:0;background-position:2px -193px}
+.footer-cn .able-item-service .tel{word-break:break-all;word-spacing:normal;white-space:nowrap;font-size:14px;margin-top:0;line-height:30px}
+.footer-cn .able-item-service .able-item-server-time{display:inline-block;line-height:30px;font-size:14px}
+.footer-cn .left-content{margin-right:30px}
+.footer-cn .able-item{position:relative;z-index:11}
+.footer-cn .able-items li:lnth-last-of-type{margin-right:0}
+.footer-cn .able-items .able-item{font-weight:bolder;cursor:default;font-family:"AkkuratPro-Bold";font-size:14px;color:#242728;line-height:30px}
+.footer-cn .able-items .able-item .tit{padding-left:45px}
+.footer-cn .able-items .able-item:hover .tit{color:#c9282c}
+.footer-cn .able-item-wx i{width:45px;height:38px;top:0;background-position:-39px -193px}
+.footer-cn .able-item-online i{width:35px;height:34px;top:0;background-position:-92px -193px}
+.footer-cn .able-item-yc i{width:30px;height:34px;top:0;background-position:-142px -193px}
+.footer-cn .able-item-sup i{width:34px;height:34px;top:0;background-position:-192px -193px}
+.footer-cn .able-item-wx .qrcode{display:none;position:absolute;left:.5px;top:-120px;padding:5px;border:solid 1px #999;-webkit-box-shadow:0 0 4px rgba(0,0,0,.5);box-shadow:0 0 4px rgba(0,0,0,.5);background:#fff}
+.footer-cn .able-item-wx:hover .qrcode{display:block}
+.footer-cn .qrcode b,.m-share .qrcode b,.cbg-submenu .col-sns .qrcode b{background:url(images/img_cn_ewm.png) no-repeat}
+.footer-cn .able-item-wx b{display:block;width:108px;height:108px;background-position:-109px 0}
+@media(min-width:1281px){.footer-cn .bread-crumb{padding-top:20px}
+.footer-cn .footer-cnt .bread-crumb ul:before{top:10px}
+}
+@media(min-width:1023px) and (max-width:1280px){.footer-cn .bread-crumb{padding-top:40px}
+.footer-cn .footer-cnt .bread-crumb ul:before{top:30px}
+}
+@media(min-width:1024px){}
+@media(max-width:1280px) and (min-width:1181px){.footer-cn .able-item .able-item-service{position:relative}
+.footer-cn .able-item-service .able-item-server-time{position:absolute;top:25px;left:120px}
+.footer-cn .left-content{margin-right:30px}
+.footer-cn .able-items .able-item .tit{padding-left:40px}
+}
+@media(max-width:1180px) and (min-width:1024px){.footer-cn .able-item .able-item-service{position:relative}
+.footer-cn .able-item-service .able-item-server-time{position:absolute;top:25px;left:112px}
+.footer-cn .left-content{margin-right:15px}
+.footer-cn .able-items .able-item .tit{padding-left:40px}
+}
+@media(max-width:1023px){.footer-cn .footer-nav-list{width:100% !important}
+.footer-cn .footer-top .cnt-wrap .l-box{border-right:0;width:100%}
+.footer-cn .footer-top .cnt-wrap .r-box{width:100%;max-width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:left;border-left:0;padding-left:0}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box{text-align:left;margin-bottom:0}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box p{font-family:"AkkuratPro-Bold";font-size:14px;font-weight:bolder;color:#242728;line-height:30px;margin-bottom:10px;display:inline-block;width:120px}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a{display:inline-block;width:25px;height:25px;margin-right:15px;transform:translateY(7px);-webkit-transform:translateY(7px);-ms-transform:translateY(7px);-o-transform:translateY(7px);-moz-transform:translateY(7px)}
+.footer-cn .footer-top .cnt-wrap .r-box .footer-right-area .con-box a{margin-right:20px}
+.footer-cn .bread-crumb{padding:15px 20px}
+.footer-cn .footer-cn-rmd{height:310px;position:relative;padding-left:0}
+.footer-cn .able-items .able-item,.footer-cn .able-item-service.able-item-service .tit,.footer-cn .able-item-service .tel,.footer-cn .able-item-service .able-item-server-time{font-size:14px !important}
+.footer-cn .able-item-service{margin-bottom:30px}
+.footer-cn .bread-crumb ul.clearfix{padding-top:10px}
+}
+.footer-cn .footer-cnt .bread-crumb ul{border-top:1px solid rgba(111,111,111,0.5)}
+@media(max-width:1023px) and (min-width:450px){.footer-cn .able-items .able-item{margin-bottom:15px;width:150px}
+.footer-cn .able-item-wx i{background-position:-45px -193px}
+.footer-cn .able-item-online i{background-position:-97px -193px}
+.footer-cn .able-item-yc i{background-position:-145px -193px}
+}
+@media(max-width:449px){.footer-cn .able-item-wx i{background-position:-45px -193px}
+.footer-cn .able-item-online i{background-position:-97px -193px}
+.footer-cn .able-item-yc i{background-position:-145px -193px}
+.footer-cn .able-items .able-item{margin-bottom:15px;width:50%;float:left;margin-right:0 !important}
+.footer-cn .footer-cn-rmd{height:190px;position:relative}
+}
+.footer-cn .bread-crumb ul.clearfix+.bot{display:none}
+.footer-cn .footer-top .cnt-wrap .list li{margin-bottom:10px}
+@media(min-width:1024px){.huawei-v3-support-padding-top{padding-top:70px !important}
+.s-wrap>div.knowledge-detail-component{padding-top:70px !important;background-color:#fbfbfa}
+}
+@media(max-width:1023px){.huawei-v3-support-padding-top{padding-top:40px !important}
+.s-wrap>div.knowledge-detail-component{padding-top:40px !important;background-color:#fbfbfa}
+}
+.huawei-v3 .weu-has-hover .weu-specifications__header:hover{background:#f0f0f0}
+.huawei-v3 .weu-heading,.weu-richtext h1{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-select select{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-btn{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-paragraph--small,.weu-paragraph--small p{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-paragraph--intro,.weu-paragraph--intro p{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-paragraph--intro-fixed,.weu-paragraph--intro-fixed p{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-paragraph,.weu-paragraph p{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-heading--small,.weu-richtext h1--small,.weu-richtext h2,.weu-richtext h3,.weu-richtext h4{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-heading--small-caps,.weu-richtext h1--small-caps{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+.huawei-v3 .weu-heading,.weu-richtext h1{font-family:"akkuratPro-regular",Helvetica,Arial,sans-serif}
+#footer-v3 .footer-services-component .propagate{width:100%;max-width:2560px;border-bottom:1px solid rgba(111,111,111,0.25)}
+#footer-v3 .footer-services-component .propagate span.icon-fd{background:url('images/foot-top-01.png') no-repeat;background-position:center center;background-size:contain}
+#footer-v3 .footer-services-component .propagate span.icon-ds{background:url('images/foot-top-02.png') no-repeat;background-position:center center;background-size:contain}
+#footer-v3 .footer-services-component .propagate span.icon-se{background:url('images/foot-top-03.png') no-repeat;background-position:center center;background-size:contain}
+#footer-v3 .footer-services-component .propagate span.icon-yr{background:url('images/foot-top-04.png') no-repeat;background-position:center center;background-size:contain}
+html[lang="zh-CN"] .huawei-v3,html[lang="zh-CN"] .huawei-v3 .content-v3,html[lang="zh-CN"] .huawei-v3 .content-v3 .content-v3-plp,html[lang="zh-CN"] .huawei-v3 .new-list .new-first .new-first-cnt .new-first-tit{font-family:"Microsoft YaHei","arial","sans-serif" !important}
+html[lang="zh-TW"] .huawei-v3,html[lang="zh-TW"] .huawei-v3 .content-v3,html[lang="zh-TW"] .huawei-v3 .content-v3 .content-v3-plp,html[lang="zh-TW"] .huawei-v3 .new-list .new-first .new-first-cnt .new-first-tit{font-family:"Microsoft YaHei","arial","sans-serif" !important}
+.s-selector .select ol li.current{color:#d20a2c}
+.s-selector .select ol li.current a{color:#d20a2c}
+html[lang=ar-EG] .select span:after{left:7px;right:inherit}
+.login-dialog{transition:opacity 300ms;opacity:0}
+.login-dialog.show{opacity:1}
+.s-login-dialog{position:fixed;width:100%;height:100%;left:0;top:0;z-index:9999}
+.s-login-dialog:after{content:"";width:100%;height:100%;background-color:black;opacity:.5;display:block;position:absolute;left:0;top:0;z-index:-1}
+.s-login-dialog .s-content-dialog{width:583px;height:600px;max-width:90%;background-color:#fff;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);left:50%;top:50%;position:absolute;border-radius:4px;opacity:0;transition-duration:500ms;transition-timing-function:ease-in-out;transition-property:opacity}
+.s-login-dialog .s-content-dialog.s-show{opacity:1}
+.s-login-dialog .s-dialog-btn .s-btn{margin-left:10px;margin-right:10px;font-weight:normal}
+#loginFrame{width:100%;height:100%;border:0;position:absolute;left:50%;top:20px;transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%)inherit;top:50%}
+.s-login-dialog .content{width:100%;height:100%;position:relative;overflow:hidden}
+.s-login-dialog .contact-close{display:inline-block;width:15px;height:15px;position:absolute;top:15px;right:15px;background:url('../clientlib-support-v2/asset/img/support-icon2.svg') -1145px -454px;cursor:pointer}
+.s-login-dialog .contact-close:hover{background-position:-1176px -454px}
+.login-dialog{height:700px}
+.huawei-v3 .header-wrap .right-box .login.active .login-wrap{display:block}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .show-login{display:block}
+.huawei-v3 .header-wrap .right-box .login.singin .login-wrap .show-login{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .show-logout{display:none}
+.huawei-v3 .header-wrap .right-box .login.singin .login-wrap .show-logout{display:block}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a svg{left:36px}
+.huawei-v3 .header-wrap .right-box .login .singin-btn{display:none}
+.huawei-v3 .header-wrap .right-box .login .login-btn{display:block;width:20px;height:20px;padding:1px 2px 3px}
+.huawei-v3 .header-wrap .right-box .login.singin .singin-btn{display:block;width:20px;height:20px;padding:1px 2px 3px}
+.huawei-v3 .header-wrap .right-box .login.singin .login-btn{display:none}
+@media(max-width:1023px){.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul li a svg{left:15px}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .app-sign span{width:inherit;height:inherit;font-size:inherit;overflow:inherit;position:inherit}
+.huawei-v3 .header-wrap .right-box .login .login-wrap .login-cnt ul .app-sign svg{width:20px;height:20px;padding:1px 2px 3px}
+}
+@media screen and (min-width:768px){.huawei-v3 .header-wrap .nav-wrap ul li.curpage a{color:#000}
+.huawei-v3 .header-wrap .nav-wrap ul li.curpage a::after{background-position:-37px -114px}
+.huawei-v3 .header-wrap .nav-wrap ul li.current.curpage a::after{background-position:-37px -97px}
+.huawei-v3 .header-wrap .nav-wrap ul li.curpage .jump-v3::after{background-position:-56px -113px}
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 978 750" width="978" height="750" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="f1" y="-10%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+    </filter>
+  </defs>
+  <symbol>
+    <circle id="yellow-circle1" cx="330" cy="425" r="0" fill="none" stroke="white" stroke-width="15">
+      <animate xlink:href="#yellow-circle1" attributeName="r" from="100" to="350" dur="2s" repeatCount="indefinite" fill="freeze" id="circ-grow"></animate>
+      <animate xlink:href="#yellow-circle1" attributeName="opacity" from="1" to="0" values="1;0" dur="2s" repeatCount="indefinite" fill="freeze"></animate>
+    </circle>
+    <circle id="yellow-circle2" cx="330" cy="425" r="0" fill="none" stroke="white" stroke-width="15">
+      <animate xlink:href="#yellow-circle2" attributeName="r" from="100" to="350" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+0.5s"></animate>
+      <animate xlink:href="#yellow-circle2" attributeName="opacity" from="1" to="0" values="1;0" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+0.5s"></animate>
+    </circle>
+    <circle id="yellow-circle3" cx="330" cy="425" r="0" fill="none" stroke="white" stroke-width="15">
+      <animate xlink:href="#yellow-circle3" attributeName="r" from="100" to="350" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+1s"></animate>
+      <animate xlink:href="#yellow-circle3" attributeName="opacity" from="1" to="0" values="1;0" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+1s"></animate>
+    </circle>
+    <circle id="yellow-circle4" cx="330" cy="425" r="0" fill="none" stroke="white" stroke-width="15">
+      <animate xlink:href="#yellow-circle4" attributeName="r" from="100" to="350" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+1.5s"></animate>
+      <animate xlink:href="#yellow-circle4" attributeName="opacity" from="1" to="0" values="1;0" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+1.5s"></animate>
+    </circle>
+    <circle id="yellow-circle5" cx="330" cy="425" r="0" fill="none" stroke="white" stroke-width="15">
+      <animate xlink:href="#yellow-circle5" attributeName="r" from="100" to="350" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+2s"></animate>
+      <animate xlink:href="#yellow-circle5" attributeName="opacity" from="1" to="0" values="1;0" dur="2s" repeatCount="indefinite" fill="freeze" begin="circ-grow.begin+2s"></animate>
+    </circle>
+  </symbol>
+  <use xlink:href="#yellow-circle1" filter="url(#f1)"></use>
+  <use xlink:href="#yellow-circle2" filter="url(#f1)"></use>
+  <use xlink:href="#yellow-circle3" filter="url(#f1)"></use>
+  <use xlink:href="#yellow-circle4" filter="url(#f1)"></use>
+  <use xlink:href="#yellow-circle5" filter="url(#f1)"></use>
+</svg>
